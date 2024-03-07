@@ -1,0 +1,38 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    padding: 25px 250px;
+    justify-content: space-between;
+}
+
+.navitems {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.navitemlink {
+    text-decoration: none;
+
+}
+
+.navitem {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.contactBtn {
+    width: max-content;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+
+
+}
