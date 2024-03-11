@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.serviceWrapper {
+    width: 100%;
+}
+
+.serviceContaienr {
+    text-align: center;
+    padding: 50px 250px;
+}
+
+.serviceContaienr>h5 {
+    color: #16FCD2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.serviceContaienr>h2 {
+    margin-bottom: 60px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-align: center;
+    background-image: linear-gradient(145.55deg, #ECECEC 20.35%, rgba(236, 236, 236, 0) 128.73%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.serviceContentArea {
+    border-top: 1px solid #FFFFFF1A;
+    padding: 50px 100px;
+}
+
+.servicecontentInfo {
+    text-align: justify;
+}
+
+.servicecontentInfo>p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #FFFFFF99;
+    margin: 20px 0;
+}
+
+.servicecontentInfo>h4 {
+    margin: 20px 0;
+}
+
+.servieslist {
+    padding-left: 50px;
+}
+
+.title {
+    font-weight: 600;
+    color: white;
+}
+
+.list>.listItem {
+    margin-left: 50px;
+}
+
+.listItem>p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #FFFFFF99;
+}

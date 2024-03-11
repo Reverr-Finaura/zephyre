@@ -81,6 +81,9 @@ body {
   background: rgba(11, 11, 34, 0.9);
 }
 
+button {
+  cursor: pointer;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

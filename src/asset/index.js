@@ -14,12 +14,96 @@ export const Navlinks = [
   {
     name: "Services",
     link: "/services",
+    content: [
+      {
+        name: "Single/Multi-family office",
+        dropdown: [
+          {
+            name: "Cross Border FO Setup",
+            link: "/cross-border-fo-setup",
+          },
+          {
+            name: "VC Opportunities",
+            link: "/vc-opportunities",
+          },
+        ],
+      },
+      {
+        name: "LPs",
+        dropdown: [
+          {
+            name: "VC Opportunities",
+            link: "/vc-opportunities",
+          },
+          {
+            name: "Cross Border Setup (FO & Fund)",
+            link: "/cross-border-setup",
+          },
+        ],
+      },
+      {
+        name: "Startups",
+        dropdown: [
+          {
+            name: "Investment Banking",
+            link: "/investment-banking",
+          },
+          {
+            name: "IPO Services",
+            link: "/ipo-ervices",
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Our Team",
     link: "/ourteam",
   },
 ];
+
+export const services = [
+  {
+    name: "Single/Multi-family office",
+    dropdown: [
+      {
+        name: "VC Opportunities",
+        link: "/services/vc-opportunities",
+      },
+      {
+        name: "Cross Border FO Setup",
+        link: "/services/cross-border-fo-setup",
+      },
+    ],
+  },
+  {
+    name: "LPs",
+    dropdown: [
+      {
+        name: "VC Opportunities",
+        link: "/services/lp-vc-opportunities",
+      },
+      {
+        name: "Cross Border Setup (FO & Fund)",
+        link: "/services/lp-cross-border-setup",
+      },
+    ],
+  },
+  {
+    name: "Startups",
+    dropdown: [
+      {
+        name: "Investment Banking",
+        link: "/services/investment-banking",
+      },
+      {
+        name: "IPO Services",
+        link: "/services/ipo-services",
+      },
+    ],
+  },
+];
+
 export const planing1 = [
   {
     image: icon1,
