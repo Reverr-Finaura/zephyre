@@ -43,7 +43,7 @@ const Footer = () => {
             <p>Family Office Services</p>
           </div>
           <div className={style.footerOptions}>
-            <h5>COMPANY</h5>
+            <h5>Company</h5>
             <p>About</p>
             <p>Contact</p>
             <p>Send Quote</p>
@@ -52,7 +52,7 @@ const Footer = () => {
             <p>Jobs</p>
           </div>
           <div className={style.footerOptions}>
-            <h5>RESOURCES</h5>
+            <h5>Resources</h5>
             <p>Support</p>
             <p>Documentation</p>
             <p>License</p>
