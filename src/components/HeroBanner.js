@@ -1,6 +1,5 @@
 import React from "react";
 import style from "@/style/Hero.module.css";
-import logo from "../asset/comapny.png";
 import Image from "next/image";
 
 const HeroBanner = () => {
@@ -22,7 +21,12 @@ const HeroBanner = () => {
           <button className={style.seconfbtn}>Learn More</button>
         </div>
         <div className={style.company}>
-          <Image src={logo} alt={"logo"} />
+          <Image
+            src='/images/comapny.png'
+            alt={"logo"}
+            width={780}
+            height={40}
+          />
         </div>
       </div>
     </sectio>

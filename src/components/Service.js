@@ -2,13 +2,18 @@ import React from "react";
 import style from "@/style/Service.module.css";
 import { planing1, planing2 } from "@/asset";
 import Image from "next/image";
-import reactlogo from "../asset/Rectangle.png";
 
 const Service = () => {
   return (
     <section className={style.service}>
       <div className={style.blurspotService}></div>
-      <Image src={reactlogo} alt={"logo"} className={style.blurspotService2} />
+      <Image
+        src='/images/Rectangle.png'
+        alt={"logo"}
+        width={510}
+        height={420}
+        className={style.blurspotService2}
+      />
       <div className={style.serviceContainer}>
         <h3>Our Services</h3>
         <h5>A Smorgasbord of Financial Delicacies</h5>
@@ -17,7 +22,7 @@ const Service = () => {
             {planing1.map((item, index) => {
               return (
                 <div key={index} className={style.card}>
-                  <Image src={item.image} alt={"logo"} />
+                  <Image src={item.image} alt={"logo"} width={50} height={50} />
                   <div className={style.cardInfo}>
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
@@ -34,7 +39,7 @@ const Service = () => {
             {planing2.map((item, index) => {
               return (
                 <div key={index} className={style.card}>
-                  <Image src={item.image} alt={"logo"} />
+                  <Image src={item.image} alt={"logo"} width={50} height={50} />
                   <div className={style.cardInfo}>
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>

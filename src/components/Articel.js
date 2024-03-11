@@ -1,6 +1,5 @@
 import React from "react";
 import style from "@/style/Article.module.css";
-import logo from "../asset/group.png";
 import Image from "next/image";
 
 const Articel = () => {
@@ -9,7 +8,12 @@ const Articel = () => {
       <div className={style.blurspot}></div>
       <div className={style.articleContainer}>
         <div className={style.Articelimg}>
-          <Image src={logo} alt={"logo"} />
+          <Image
+            src='/images/group.png'
+            alt={"logo"}
+            width={560}
+            height={380}
+          />
         </div>
         <div className={style.articleInfoSection}>
           <h5>HOW WE WORK?</h5>

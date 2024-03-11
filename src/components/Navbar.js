@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
 import style from "@/style/Navbar.module.css";
-import logo from "../asset/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Navlinks, services } from "@/asset";
+import { services } from "@/asset";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -13,7 +12,7 @@ const Navbar = () => {
     <nav className={style.navbar}>
       <div className={style.navbarContainer}>
         <div>
-          <Image src={logo} alt={"logo"} />
+          <Image src='/images/logo.png' alt={"logo"} width={180} height={54} />
         </div>
         <div className={style.navitems}>
           <Link className={style.navitemlink} href={"/"}>

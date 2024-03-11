@@ -1,7 +1,6 @@
 import React from "react";
 import style from "@/style/footer.module.css";
 import Image from "next/image";
-import logo from "../asset/footerlogo.png";
 
 const Footer = () => {
   return (
@@ -25,7 +24,12 @@ const Footer = () => {
         </div>
         <div className={style.mainFooter}>
           <div className={style.mainFooterlogo}>
-            <Image src={logo} alt={"logo"} />
+            <Image
+              src='/images/footerlogo.png'
+              alt={"logo"}
+              width={185}
+              height={57}
+            />
             <p>Copyright © 2024</p>
             <p>A unit of D Square Ventures Pvt Ltd</p>
           </div>

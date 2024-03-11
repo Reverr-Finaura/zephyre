@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import style from "@/style/Testimonial.module.css";
 import { testimonial } from "@/asset";
-import badge from "../asset/bage.png";
 import Image from "next/image";
 
 const Testimonial = () => {
@@ -37,8 +36,14 @@ const Testimonial = () => {
             return (
               <div key={index} className={style.testimonialCard}>
                 <div className={style.testimonialCardImg}>
-                  <Image src={item.image} alt={"logo"} />
-                  <Image src={badge} alt={"badge"} className={style.badge} />
+                  <Image src={item.image} alt={"logo"} width={90} height={90} />
+                  <Image
+                    src='/images/bage.png'
+                    alt={"badge"}
+                    width={28}
+                    height={28}
+                    className={style.badge}
+                  />
                 </div>
                 <h5>{item.name}</h5>
                 <h6>{item.company}</h6>
