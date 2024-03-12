@@ -103,35 +103,41 @@ export const services = [
 export const planing1 = [
   {
     image: "/images/icon1.png",
-    title: "Asset Management",
-    desc: "Imagine a garden of flourishing investments, each pruned and nurtured to bear the juiciest returns. That's our promise with bespoke asset management.",
+    title: "VC Opportunities (FO)",
+    desc: "Explore tailored investment opportunities with Zephyer for family offices. Benefit from our startup expertise, exclusive access, and strategic exit planning for remarkable returns.",
+    link: "/services/vc-opportunities",
   },
   {
-    image: "/images/icon2.png",
-    title: "Tax Planning",
-    desc: "We play the tax game like a grandmaster, strategizing moves to shield your treasure from the dragons of the tax realm.",
+    image: "/images/icon1.png",
+    title: "Cross Border Setup (FO & Fund)",
+    desc: "Discover global wealth management and personalized financial planning with Zephyer. Tailored solutions for single and multi-family offices seeking sophistication, excellence, and exclusive access to elite opportunities",
+    link: "/services/cross-border-fo-setup",
   },
   {
-    image: "/images/icon2.png",
-    title: "Estate Planning",
-    desc: "Crafting your legacy with the precision of a master jeweler, ensuring your wealth is a gift that keeps on giving, from generation to generation.",
+    image: "/images/icon1.png",
+    title: "VC opportunities for LPs",
+    desc: "Indulge in luxury with Zephyer's tailored investment opportunities for lending partners. Benefit from startup access, risk management, flexible structures, and strategic networking for substantial returns",
+    link: "/services/lp-vc-opportunities",
   },
 ];
 export const planing2 = [
   {
     image: "/images/icon1.png",
-    title: "Investment Planning",
-    desc: "Your VIP pass to the investment gala, where exclusive opportunities knock on your door, dressed in their finest returns.",
+    title: "Cross Border Setup (FO & Fund) for LPs",
+    desc: "Experience sophistication with Zephyer's cross-border family office setup. Tailored solutions elevate your global strategy, including structuring, investment advisory, wealth preservation, and lifestyle management.",
+    link: "/services/lp-cross-border-setup",
   },
   {
     image: "/images/icon1.png",
-    title: "Family Office Services",
-    desc: " Imagine a butler for your wealth, ensuring the silver spoon legacy doesn't just endure but evolves magnificently.",
+    title: "Investment Banking for Startups    ",
+    desc: " Elevate your startup journey with Zephyer's exclusive investment banking services. Tailored solutions in capital raising, M&A advisory, partnerships, restructuring, and IPOs. Unlock your full potential with us.",
+    link: "/services/investment-banking",
   },
   {
     image: "/images/icon1.png",
-    title: "Philanthropic Planning",
-    desc: "Unleash your inner Robin Hood, but with style. We help you channel your wealth into causes that make the world a tad brighter.",
+    title: "IPO Service fro startups",
+    desc: "Embark on a transformative IPO journey with Zephyer's tailored services for startups. From pre-IPO preparation to post-IPO support, we ensure seamless market entry and ongoing success.",
+    link: "/services/ipo-services",
   },
 ];
 

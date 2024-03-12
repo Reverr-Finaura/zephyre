@@ -2,6 +2,7 @@ import React from "react";
 import style from "@/style/Service.module.css";
 import { planing1, planing2 } from "@/asset";
 import Image from "next/image";
+import Link from "next/link";
 
 const Service = () => {
   return (
@@ -27,7 +28,9 @@ const Service = () => {
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
                   </div>
-                  <p>View More</p>
+                  <Link Link href={item.link} className={style.link}>
+                    View More
+                  </Link>
                 </div>
               );
             })}
@@ -44,7 +47,9 @@ const Service = () => {
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
                   </div>
-                  <p>View More</p>
+                  <Link href={item.link} className={style.link}>
+                    View More
+                  </Link>
                 </div>
               );
             })}
