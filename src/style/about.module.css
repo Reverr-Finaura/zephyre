@@ -1,4 +1,6 @@
-.aboutWrapper {}
+.aboutWrapper {
+    width: 100%;
+}
 
 .aboutContainer {
     padding: 50px 250px;
