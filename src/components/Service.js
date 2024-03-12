@@ -55,9 +55,9 @@ const Service = () => {
             })}
           </div>
         </div>
-        <div className={style.servicebtn}>
+        {/* <div className={style.servicebtn}>
           <button>Get Started</button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

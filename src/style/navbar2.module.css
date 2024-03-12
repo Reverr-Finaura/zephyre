@@ -1,5 +1,6 @@
 .Navbar2 {
     position: relative;
+    z-index: 100;
 }
 
 .Navbarcontainer {
@@ -101,16 +102,27 @@
 
 @media screen and (max-width: 480px) {
     .Navbarcontainer {
-        padding: 25px;
+        padding: 20px;
     }
 
-    .navbarItems,
+    .navbarLogoimg {
+        /* width: 70px;
+        height: auto; */
+        /* content: url('/images/mobilelogo.png'); */
+    }
+
+    .navbarItems {
+        /* gap: 20px; */
+        display: none;
+    }
+
     .contactBtn {
         display: none;
     }
 
     .navitemsmobileArea {
         display: block;
+        z-index: 100;
     }
 
     .navitemsmobile {

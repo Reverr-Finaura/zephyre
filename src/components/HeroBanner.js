@@ -23,7 +23,9 @@ const HeroBanner = () => {
             </Link>
           </div>
           <div className={`${style.seconfbtn} ${style.button}`}>
-            <span>Learn More</span>
+            <Link href={"/about"} className={style.link}>
+              <span>Learn More</span>
+            </Link>
           </div>
         </div>
         <div className={style.company}>

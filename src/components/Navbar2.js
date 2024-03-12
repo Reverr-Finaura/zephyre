@@ -13,7 +13,13 @@ const Navbar2 = () => {
     <div className={style.Navbar2}>
       <div className={style.Navbarcontainer}>
         <div onClick={() => router.push("/")}>
-          <Image src='/images/logo.png' alt='logo' width={180} height={54} />
+          <Image
+            src='/images/logo.png'
+            alt='logo'
+            width={180}
+            height={54}
+            className={style.navbarLogoimg}
+          />
         </div>
         <div className={style.navbarItems}>
           <div className={style.navbarItemdiv} onClick={() => router.push("/")}>

@@ -8,7 +8,11 @@ import Image from "next/image";
 const Mobilenavbar = () => {
   const router = useRouter();
   const pathname = usePathname();
-  const [showDropdown, setShowDropdown] = useState(true);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const nagivate = (item) => {
+    router.push(item);
+    setShowDropdown(false);
+  };
   return (
     <div className={style.navitemsmobileArea}>
       <div onClick={() => setShowDropdown(!showDropdown)}>
@@ -17,10 +21,7 @@ const Mobilenavbar = () => {
       <div>
         {showDropdown && (
           <div className={style.navitemsmobile}>
-            <div
-              className={style.navbarItemdiv}
-              onClick={() => router.push("/")}
-            >
+            <div className={style.navbarItemdiv} onClick={() => nagivate("/")}>
               <span
                 className={style.navitem}
                 style={{
@@ -42,7 +43,7 @@ const Mobilenavbar = () => {
 
             <div
               className={style.navbarItemdiv}
-              onClick={() => router.push("/about")}
+              onClick={() => nagivate("/about")}
             >
               <span
                 className={style.navitem}
@@ -89,7 +90,7 @@ const Mobilenavbar = () => {
                       {item.dropdown.map((nav, i) => (
                         <div
                           key={i}
-                          onClick={() => router.push(nav.link)}
+                          onClick={() => nagivate(nav.link)}
                           className={style.navbarItemdiv}
                         >
                           <span
@@ -118,7 +119,7 @@ const Mobilenavbar = () => {
             </div>
             <div
               className={style.navbarItemdiv}
-              onClick={() => router.push("/terms-&-conditions")}
+              onClick={() => nagivate("/terms-&-conditions")}
             >
               <span
                 className={style.navitem}
@@ -140,7 +141,7 @@ const Mobilenavbar = () => {
             </div>
             <div
               className={style.navbarItemdiv}
-              onClick={() => router.push("/contactsection")}
+              onClick={() => nagivate("/contactsection")}
             >
               <span
                 className={style.navitem}

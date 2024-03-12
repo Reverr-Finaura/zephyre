@@ -34,3 +34,23 @@
     filter: blur(3500px);
     rotate: 13.8deg;
 }
+
+@media screen and (max-width: 480px) {
+    .blurspot {
+        width: 150px;
+        height: 150px;
+        filter: blur(300px);
+    }
+
+    .blurspot2 {
+        width: 150px;
+        height: 150px;
+        filter: blur(300px);
+    }
+
+    .blurspot3 {
+        width: 150px;
+        height: 150px;
+        filter: blur(300px);
+    }
+}
