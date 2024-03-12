@@ -7,7 +7,7 @@ const HeroBanner = () => {
   return (
     <section className={style.heroBanner}>
       <div className={style.heroBannerContainer}>
-        <h5>Lorem Ipsum </h5>
+        {/* <h5>Lorem Ipsum </h5> */}
         <p className={style.title}>
           Elevating Wealth Management for the Ultra High Net Worth
         </p>
