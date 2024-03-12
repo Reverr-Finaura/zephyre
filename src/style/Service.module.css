@@ -79,6 +79,7 @@
 }
 
 .cardInfo>h4 {
+    color: white;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 500;
@@ -88,6 +89,7 @@
 }
 
 .cardInfo>p {
+    color: white;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -97,7 +99,7 @@
 
 }
 
-.card>.link {
+.card>.linkname {
     color: white;
     cursor: pointer;
     margin-top: 15px;

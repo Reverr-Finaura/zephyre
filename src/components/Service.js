@@ -28,7 +28,7 @@ const Service = () => {
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
                   </div>
-                  <Link Link href={item.link} className={style.link}>
+                  <Link Link href={item.linkname} className={style.linkname}>
                     View More
                   </Link>
                 </div>
@@ -47,7 +47,7 @@ const Service = () => {
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
                   </div>
-                  <Link href={item.link} className={style.link}>
+                  <Link href={item.linkname} className={style.linkname}>
                     View More
                   </Link>
                 </div>

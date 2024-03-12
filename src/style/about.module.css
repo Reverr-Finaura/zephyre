@@ -40,6 +40,7 @@
 }
 
 .aboutHeroRight>.title {
+
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 500;
@@ -72,6 +73,7 @@
 }
 
 .anotherHero>.title {
+    color: white;
     font-size: 26px;
     font-weight: 700;
     line-height: 48px;
@@ -154,6 +156,7 @@
 }
 
 .ourTeam>.title {
+    color: white;
     font-size: 26px;
     font-weight: 700;
     line-height: 48px;

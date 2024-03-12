@@ -51,6 +51,7 @@
 }
 
 .servicecontentInfo>h4 {
+    color: white;
     margin: 20px 0;
     font-size: 24px;
     font-weight: 700;
@@ -70,6 +71,7 @@
 }
 
 .list>.listItem {
+    color: white;
     margin-left: 50px;
 }
 
