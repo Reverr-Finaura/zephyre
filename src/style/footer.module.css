@@ -1,4 +1,6 @@
-.footer {}
+.footer {
+    position: relative;
+}
 
 .footerContainer {
     padding: 40px 250px 40px;
@@ -39,7 +41,7 @@
 }
 
 
-.herobtn>button {
+.herobtn>.button {
     width: 209px;
     padding: 15px 55px 15px 55px;
     border-radius: 3px;
@@ -56,6 +58,11 @@
 .firstbtn {
     background: #6016FC;
     border: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
 }
 
 .seconfbtn {
@@ -101,5 +108,51 @@
     line-height: 32px;
     letter-spacing: 0em;
     color: #FFFFFF99;
+
+}
+
+@media screen and (max-width:890px) {
+    .footerContainer {
+        padding: 50px;
+    }
+
+    .contactSection {
+        padding: 50px;
+    }
+
+
+    .mainFooter {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .mainFooterlogo>p {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .footerContainer {
+        padding: 20px;
+    }
+
+    .contactSection {
+        padding: 20px;
+    }
+
+    .herobtn {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mainFooter {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .mainFooterlogo>p {
+        padding: 0;
+    }
 
 }

@@ -1,0 +1,276 @@
+.aboutWrapper {}
+
+.aboutContainer {
+    padding: 50px 250px;
+}
+
+.aboutHero {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 150px;
+}
+
+.aboutHeroLeft {
+    position: relative;
+    width: 40%;
+}
+
+.aboutHeroLeft>.image2 {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+
+
+.aboutHeroRight {
+    width: 60%;
+}
+
+
+.aboutHeroRight>h5 {
+    color: #16FCD2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+.aboutHeroRight>.title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: white;
+}
+
+.aboutHeroRight>.info {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #FFFFFF99;
+}
+
+.anotherHero {
+    padding: 100px 0 0 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.anotherHero>h5 {
+    color: #16FCD2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+.anotherHero>.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.anotherHeroInfo {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.05);
+
+}
+
+.contactTypeItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cotactImage {
+    padding: 20px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.05);
+
+}
+
+.contactTypeItemsinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactTypeItemsinfo>h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.contactTypeItemsinfo>p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    margin-top: 80px;
+    border-top: 1px solid #FFFFFF1A;
+    border-bottom: 1px solid #FFFFFF1A;
+}
+
+.ourTeam {
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.ourTeam>h5 {
+    color: #16FCD2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+.ourTeam>.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.ourTeamCards {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.ourTeamCardsBottom {
+    text-align: start;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    padding: 20px 30px;
+}
+
+.ourTeamCardsBottom>h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ourTeamCardsBottom>p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutContainer {
+        padding: 60px;
+    }
+
+    .ourTeamCards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .aboutContainer {
+        padding: 60px;
+    }
+
+    .aboutHero {
+        gap: 70px;
+    }
+
+    .aboutHeroLeft>.image2 {
+        right: -30px;
+    }
+
+    .ourTeamCards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .ourTeamCardsImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .companyImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    .aboutHero {
+        flex-direction: column;
+    }
+
+    .aboutHeroLeft {
+        width: 100%;
+    }
+
+    .aboutHeroLeft>.image2 {
+        right: 0px;
+    }
+
+    .aboutHeroRight {
+        width: 100%;
+    }
+
+    .anotherHeroInfo {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .ourTeamCards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .companyImage {
+        width: 100%;
+        height: auto;
+    }
+}

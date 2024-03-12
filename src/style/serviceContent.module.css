@@ -52,6 +52,12 @@
 
 .servicecontentInfo>h4 {
     margin: 20px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .servieslist {
@@ -71,6 +77,35 @@
     margin-top: 20px;
     font-size: 14px;
     font-weight: 500;
+    line-height: 32px;
     letter-spacing: 0em;
     color: #FFFFFF99;
+}
+
+@media screen and (max-width: 890px) {
+    .serviceContaienr {
+        padding: 50px;
+    }
+
+    .serviceContentArea {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .serviceContaienr {
+        padding: 30px;
+    }
+
+    .serviceContentArea {
+        padding: 0px;
+    }
+
+    .list>.listItem {
+        margin-left: 30px;
+    }
+
+    .servieslist {
+        padding-left: 30px;
+    }
 }

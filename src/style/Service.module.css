@@ -122,3 +122,38 @@
     background: #6016FC;
     border: none;
 }
+
+@media screen and (max-width:890px) {
+    .serviceContainer {
+        padding: 50px;
+    }
+
+    .allcard {
+        margin-top: 30px;
+    }
+
+    .card {
+        max-width: 300px;
+        min-width: auto;
+    }
+
+    .cardList {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .serviceContainer {
+        padding: 20px;
+    }
+
+    .allcard {
+        margin-top: 30px;
+    }
+
+    .cardList {
+        flex-direction: column;
+    }
+
+}

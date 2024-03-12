@@ -49,7 +49,7 @@
 }
 
 
-.herobtn>button {
+.herobtn>.button {
     width: 209px;
     padding: 15px 55px 15px 55px;
     border-radius: 3px;
@@ -68,6 +68,11 @@
     border: none;
 }
 
+.link {
+    text-decoration: none;
+    color: white;
+}
+
 .seconfbtn {
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -83,4 +88,47 @@
     margin-top: 80px;
     border-top: 1px solid #FFFFFF1A;
     border-bottom: 1px solid #FFFFFF1A;
+}
+
+@media screen and (max-width: 1024px) {
+    .heroBannerContainer {
+        padding: 50px 80px;
+    }
+
+    .heroBannerContainer>.info {
+        padding: 0 50px;
+    }
+
+    .companyImage {
+        height: auto;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heroBannerContainer {
+        padding: 30px;
+    }
+
+    .heroBannerContainer>.title {
+        font-size: 38px;
+    }
+
+    .heroBannerContainer>.info {
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .herobtn {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .companyImage {
+        height: auto;
+        width: 100%;
+
+    }
 }

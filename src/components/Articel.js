@@ -13,6 +13,8 @@ const Articel = () => {
             alt={"logo"}
             width={560}
             height={380}
+            className={style.articelImage}
+            priority={false}
           />
         </div>
         <div className={style.articleInfoSection}>

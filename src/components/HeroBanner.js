@@ -1,10 +1,11 @@
 import React from "react";
 import style from "@/style/Hero.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroBanner = () => {
   return (
-    <sectio className={style.heroBanner}>
+    <section className={style.heroBanner}>
       <div className={style.heroBannerContainer}>
         <h5>Lorem Ipsum </h5>
         <p className={style.title}>
@@ -17,8 +18,14 @@ const HeroBanner = () => {
           tailored, sophisticated solutions.
         </p>
         <div className={style.herobtn}>
-          <button className={style.firstbtn}>Get In Touch</button>
-          <button className={style.seconfbtn}>Learn More</button>
+          <div className={`${style.firstbtn} ${style.button}`}>
+            <Link href={"/contactsection"} className={style.link}>
+              Get In Touch
+            </Link>
+          </div>
+          <div className={`${style.seconfbtn} ${style.button}`}>
+            <span>Learn More</span>
+          </div>
         </div>
         <div className={style.company}>
           <Image
@@ -26,10 +33,11 @@ const HeroBanner = () => {
             alt={"logo"}
             width={780}
             height={40}
+            className={style.companyImage}
           />
         </div>
       </div>
-    </sectio>
+    </section>
   );
 };
 

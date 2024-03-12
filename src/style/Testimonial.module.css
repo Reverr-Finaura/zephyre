@@ -1,4 +1,6 @@
-.testimonial {}
+.testimonial {
+    position: relative;
+}
 
 .testimonialContainer {
     padding: 0px 90px 150px;
@@ -112,4 +114,28 @@
 
 .dot.active {
     background-color: white;
+}
+
+@media screen and (max-width:890px) {
+    .testimonialContainer {
+        padding: 0 50px 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .testimonialContainer {
+        padding: 0 20px 30px;
+    }
+
+    .testimonialContainer>h3 {
+        letter-spacing: 0em;
+    }
+
+    .testimonialCards {
+        margin-top: 50px;
+    }
+
+    .testimonialCard {
+        min-width: 350px;
+    }
 }

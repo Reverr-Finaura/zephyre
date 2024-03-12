@@ -200,3 +200,69 @@ export const testimonial = [
       "Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business.",
   },
 ];
+
+export const ourTeam = [
+  {
+    name: "Albert Flores",
+    type: "Founder",
+    image: "/images/ourteamImage.png",
+  },
+  {
+    name: "Albert Flores",
+    type: "Founder",
+    image: "/images/ourteamImage.png",
+  },
+  {
+    name: "Albert Flores",
+    type: "Founder",
+    image: "/images/ourteamImage.png",
+  },
+  {
+    name: "Albert Flores",
+    type: "Founder",
+    image: "/images/ourteamImage.png",
+  },
+  {
+    name: "Albert Flores",
+    type: "Founder",
+    image: "/images/ourteamImage.png",
+  },
+  {
+    name: "Albert Flores",
+    type: "Founder",
+    image: "/images/ourteamImage.png",
+  },
+];
+
+export const faqlist = [
+  {
+    question: "How is the payment system?",
+    answer:
+      "If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.",
+  },
+  {
+    question: "How is the payment system?",
+    answer:
+      "If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.",
+  },
+  {
+    question: "How is the payment system?",
+    answer:
+      "If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.",
+  },
+  {
+    question: "How is the payment system?",
+    answer:
+      "If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.",
+  },
+  {
+    question: "How is the payment system?",
+    answer:
+      "If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.",
+  },
+  {
+    question: "How is the payment system?",
+    answer:
+      "If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.",
+  },
+];

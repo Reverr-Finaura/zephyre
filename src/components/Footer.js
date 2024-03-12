@@ -1,6 +1,7 @@
 import React from "react";
 import style from "@/style/footer.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,8 +19,14 @@ const Footer = () => {
             Zephyer, there are no limits—only beginnings.
           </p>
           <div className={style.herobtn}>
-            <button className={style.firstbtn}>Get In Touch</button>
-            <button className={style.seconfbtn}>Learn More</button>
+            <div className={`${style.firstbtn} ${style.button}`}>
+              <Link href={"/contactsection"} className={style.link}>
+                Get In Touch
+              </Link>
+            </div>
+            <div className={`${style.seconfbtn} ${style.button}`}>
+              <span>Learn More</span>
+            </div>
           </div>
         </div>
         <div className={style.mainFooter}>
