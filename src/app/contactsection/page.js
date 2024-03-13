@@ -5,6 +5,7 @@ import styless from "@/style/footer.module.css";
 import style from "@/style/contact.module.css";
 import ContactForm from "@/components/ContactForm";
 import Navbar2 from "@/components/Navbar2";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -67,9 +68,9 @@ const page = () => {
                 height={57}
               />
               <p>Copyright © 2024</p>
-              <p>A unit of D Square Ventures Pvt Ltd</p>
+              {/* <p>A unit of D Square Ventures Pvt Ltd</p> */}
             </div>
-            <div className={styless.footerOptions}>
+            {/* <div className={styless.footerOptions}>
               <h5>Service</h5>
               <p>Asset Management</p>
               <p>Estate Planning</p>
@@ -77,23 +78,35 @@ const page = () => {
               <p>Philanthropic Planning</p>
               <p>Investment Deals</p>
               <p>Family Office Services</p>
-            </div>
+            </div> */}
             <div className={styless.footerOptions}>
               <h5>Company</h5>
-              <p>About</p>
-              <p>Contact</p>
-              <p>Send Quote</p>
-              <p>Privacy Policy</p>
-              <p>Term of Service</p>
-              <p>Jobs</p>
+              <p>
+                <Link href={"/about"} className={styless.link}>
+                  About
+                </Link>
+              </p>
+              <p>
+                <Link href={"/contactsection"} className={styless.link}>
+                  Contact
+                </Link>
+              </p>
+              {/* <p>Send Quote</p> */}
+              {/* <p>Privacy Policy</p> */}
+              <p>
+                <Link href={"/terms-&-conditions"} className={styless.link}>
+                  Term of Service
+                </Link>
+              </p>
+              {/* <p>Jobs</p> */}
             </div>
-            <div className={styless.footerOptions}>
+            {/* <div className={styless.footerOptions}>
               <h5>Resources</h5>
               <p>Support</p>
               <p>Documentation</p>
               <p>License</p>
               <p>Sitemap</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

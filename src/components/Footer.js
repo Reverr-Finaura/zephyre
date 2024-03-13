@@ -40,9 +40,9 @@ const Footer = () => {
               height={57}
             />
             <p>Copyright © 2024</p>
-            <p>A unit of D Square Ventures Pvt Ltd</p>
+            {/* <p>A unit of D Square Ventures Pvt Ltd</p> */}
           </div>
-          <div className={style.footerOptions}>
+          {/* <div className={style.footerOptions}>
             <h5>Service</h5>
             <p>Asset Management</p>
             <p>Estate Planning</p>
@@ -50,23 +50,35 @@ const Footer = () => {
             <p>Philanthropic Planning</p>
             <p>Investment Deals</p>
             <p>Family Office Services</p>
-          </div>
+          </div> */}
           <div className={style.footerOptions}>
             <h5>Company</h5>
-            <p>About</p>
-            <p>Contact</p>
-            <p>Send Quote</p>
-            <p>Privacy Policy</p>
-            <p>Term of Service</p>
-            <p>Jobs</p>
+            <p>
+              <Link href={"/about"} className={style.link}>
+                About
+              </Link>
+            </p>
+            <p>
+              <Link href={"/contactsection"} className={style.link}>
+                Contact
+              </Link>
+            </p>
+            {/* <p>Send Quote</p> */}
+            {/* <p>Privacy Policy</p> */}
+            <p>
+              <Link href={"/terms-&-conditions"} className={style.link}>
+                Term of Service
+              </Link>
+            </p>
+            {/* <p>Jobs</p> */}
           </div>
-          <div className={style.footerOptions}>
+          {/* <div className={style.footerOptions}>
             <h5>Resources</h5>
             <p>Support</p>
             <p>Documentation</p>
             <p>License</p>
             <p>Sitemap</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
