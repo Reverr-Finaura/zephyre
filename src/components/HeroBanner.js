@@ -18,12 +18,12 @@ const HeroBanner = () => {
         </p>
         <div className={style.herobtn}>
           <div className={`${style.firstbtn} ${style.button}`}>
-            <Link href={"/contactsection"} className={style.link}>
+            <Link href={"/contactsection"} className={style.linkName}>
               Get In Touch
             </Link>
           </div>
           <div className={`${style.seconfbtn} ${style.button}`}>
-            <Link href={"/about"} className={style.link}>
+            <Link href={"/about"} className={style.linkName}>
               <span>Learn More</span>
             </Link>
           </div>

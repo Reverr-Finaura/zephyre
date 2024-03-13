@@ -1,6 +1,5 @@
 import HeroBanner from "@/components/HeroBanner";
 import styles from "@/app/page.module.css";
-import Navbar from "@/components/Navbar";
 import Articel from "@/components/Articel";
 import Service from "@/components/Service";
 import Testimonial from "@/components/Testimonial";

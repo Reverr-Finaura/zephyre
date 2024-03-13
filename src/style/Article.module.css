@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 480px) {
     .articleContainer {
-        padding: 30px;
+        padding: 20px;
         flex-direction: column;
     }
 

@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import React from "react";
 import styles from "../page.module.css";
@@ -47,7 +46,7 @@ const page = () => {
                 </div>
                 <div className={style.contactTypeItemsinfo}>
                   <h5>Email</h5>
-                  <p>support@zephyer.tld</p>
+                  <p>connect@zephyer.club</p>
                 </div>
               </div>
             </div>

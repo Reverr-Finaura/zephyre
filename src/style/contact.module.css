@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .contactWrapper {
     display: flex;
     gap: 21px;
@@ -111,14 +113,18 @@
 }
 
 .inputfieldarea>input {
+    font-family: Montserrat;
     width: 100%;
     background-color: transparent;
     height: 40px;
     border-radius: 3px;
+    color: white;
     border: 1px solid rgba(255, 255, 255, 0.1)
 }
 
 .inputfieldarea>textarea {
+    font-family: Montserrat;
+    color: white;
     background-color: transparent;
     height: 120px;
     border-radius: 3px;
@@ -168,7 +174,7 @@
 
 @media screen and (max-width:480px) {
     .contactWrapper {
-        padding: 50px 50px;
+        padding: 50px 30px;
         flex-direction: column;
     }
 
@@ -179,5 +185,9 @@
     .contactWrapperRight {
         width: 100%;
         margin: 50px 0 0 0;
+    }
+
+    .conatctForm {
+        padding: 40px 20px;
     }
 }

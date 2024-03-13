@@ -68,7 +68,7 @@
     border: none;
 }
 
-.link {
+.linkName {
     text-decoration: none;
     color: white;
 }
@@ -108,17 +108,19 @@
 
 @media screen and (max-width: 480px) {
     .heroBannerContainer {
-        padding: 30px;
+        padding: 20px;
     }
 
     .heroBannerContainer>.title {
-        font-size: 38px;
+        font-size: 28px;
+        line-height: 32px;
     }
 
     .heroBannerContainer>.info {
         margin-top: 30px;
         font-size: 14px;
         padding: 0 10px;
+        line-height: 28px;
     }
 
     .herobtn {

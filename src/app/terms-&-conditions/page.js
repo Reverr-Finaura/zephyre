@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../page.module.css";
 import style from "@/style/serviceContent.module.css";
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import Navbar2 from "@/components/Navbar2";
 
 const page = () => {
