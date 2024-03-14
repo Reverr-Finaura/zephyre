@@ -32,7 +32,7 @@ const Articel = () => {
             opportunities, surf the highest waves of potential, and tailor a
             wealth management strategy that's as unique as your fingerprint.
             With us, your financial journey is not just secure; it's
-            exhilarating! Ś
+            exhilarating!
           </p>
         </div>
       </div>
