@@ -36,7 +36,7 @@
 .articleInfoSection>h5 {
     color: #16FCD2;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0.1em;
@@ -52,7 +52,7 @@
 
 .articleInfoSection>.info {
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
@@ -104,6 +104,6 @@
     }
 
     .articleInfoSection>.info {
-        font-size: 12px;
+        font-size: 16px;
     }
 }

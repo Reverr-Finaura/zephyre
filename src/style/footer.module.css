@@ -33,7 +33,7 @@
 
 .contactSection>.info {
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
@@ -154,6 +154,10 @@
 
     .mainFooterlogo>p {
         padding: 0;
+    }
+
+    .contactSection>.info {
+        font-size: 16px;
     }
 
 }

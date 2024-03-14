@@ -22,7 +22,7 @@
 .testimonialContainer>h5 {
     color: #16FCD2;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0.1em;
@@ -137,6 +137,6 @@
     }
 
     .testimonialCard {
-        min-width: 350px;
+        min-width: 400px;
     }
 }
