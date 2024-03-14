@@ -35,7 +35,7 @@ const page = () => {
               </div>
               <div className={style.aboutHeroRight}>
                 <h5>ABOUT</h5>
-                <p className={style.title}>Zephyer Capital Ventures</p>
+                <p className={style.title}>Zephyer</p>
                 <p className={style.info}>
                   Zephyer, a unit under D Square Ventures Pvt Ltd, is a premier
                   investment management unit specializing in serving the unique
