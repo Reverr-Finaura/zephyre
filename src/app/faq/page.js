@@ -12,8 +12,8 @@ const page = () => {
       <div className={styles.hero}>
         <Navbar2 />
         <div className={styles.blurspot}></div>
-        <div className={styles.blurspot2}></div>
         <div className={styles.blurspot3}></div>
+        <div className={styles.blurspot2}></div>
         <div className={style.faqWrapper}>
           <div className={style.faqWrapperContainer}>
             <h5>PRICING</h5>
