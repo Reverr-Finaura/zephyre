@@ -25,6 +25,7 @@ const page = () => {
                   These terms apply to the entire website and any email or other
                   type of communication between you and Zephyer.
                   <br />
+                  <br />
                   Under no circumstances shall Zephyer team be liable for any
                   direct, indirect, special, incidental or consequential
                   damages, including, but not limited to, loss of data or
@@ -34,6 +35,7 @@ const page = () => {
                   damages. If your use of materials from this site results in
                   the need for servicing, repair or correction of equipment or
                   data, you assume any costs thereof.
+                  <br />
                   <br />
                   Zephyer will not be responsible for any outcome that may occur
                   during the course of usage of our resources. We reserve the
@@ -46,6 +48,7 @@ const page = () => {
                   transferable, limited license to download, install and use the
                   website strictly in accordance with the terms of this
                   Agreement.
+                  <br />
                   <br />
                   These Terms & Conditions are a contract between you and
                   Zephyer ("we," "our," or "us") grants you a revocable,
