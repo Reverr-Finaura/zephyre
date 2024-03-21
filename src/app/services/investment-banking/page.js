@@ -13,9 +13,10 @@ const page = () => {
         <div className={style.serviceContentArea}>
           <div className={style.servicecontentInfo}>
             <p>
-              Elevate your startup's journey with Zephyer's exclusive investment
-              banking services. Our team of industry experts offers tailored
-              solutions to fuel your success in the entrepreneurial landscape.
+              Elevate your startup's journey with Zephyer venture partners's
+              exclusive investment banking services. Our team of industry
+              experts offers tailored solutions to fuel your success in the
+              entrepreneurial landscape.
             </p>
             <h4>Our Offerings:</h4>
             <p className={style.servieslist}>
@@ -73,9 +74,9 @@ const page = () => {
               </li>
             </ul>
             <p>
-              Unleash your startup's full potential with Zephyer. Contact us
-              today to elevate your success and realise ambitious growth
-              aspirations.
+              Unleash your startup's full potential with Zephyer venture
+              partners. Contact us today to elevate your success and realise
+              ambitious growth aspirations.
             </p>
           </div>
         </div>

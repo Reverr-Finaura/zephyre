@@ -37,12 +37,12 @@ const page = () => {
                 <h5>ABOUT</h5>
                 <p className={style.title}>Zephyer</p>
                 <p className={style.info}>
-                  Zephyer, a unit under D Square Ventures Pvt Ltd, is a premier
-                  investment management unit specializing in serving the unique
-                  needs of Ultra High Net Worth Investors (UHNWI). Headquartered
-                  in India, the heart of one of the world's fastest-growing
-                  economies, we maintain a global network with partners in major
-                  financial hubs worldwide.
+                  Zephyer venture partners, a unit under D Square Ventures Pvt
+                  Ltd, is a premier investment management unit specializing in
+                  serving the unique needs of Ultra High Net Worth Investors
+                  (UHNWI). Headquartered in India, the heart of one of the
+                  world's fastest-growing economies, we maintain a global
+                  network with partners in major financial hubs worldwide.
                 </p>
               </div>
             </div>

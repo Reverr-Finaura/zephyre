@@ -13,8 +13,8 @@ const HeroBanner = () => {
         <p className={style.info}>
           Unlock a world of exclusive investment opportunities meticulously
           crafted to align with your unique financial goals and ensure enduring
-          success. Elevate your wealth management experience with Zephyer's
-          tailored, sophisticated solutions.
+          success. Elevate your wealth management experience with Zephyer
+          venture partners's tailored, sophisticated solutions.
         </p>
         <div className={style.herobtn}>
           <div className={`${style.firstbtn} ${style.button}`}>

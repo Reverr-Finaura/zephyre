@@ -14,10 +14,10 @@ const page = () => {
           <div className={style.servicecontentInfo}>
             <p>
               Discover exceptional investment opportunities tailored for
-              esteemed single and multi-family offices with Zephyer. Benefit
-              from our refined expertise in identifying extraordinary startups
-              and ventures, ensuring remarkable returns and visionary market
-              prospects.
+              esteemed single and multi-family offices with Zephyer venture
+              partners. Benefit from our refined expertise in identifying
+              extraordinary startups and ventures, ensuring remarkable returns
+              and visionary market prospects.
             </p>
             <h4>Our Services:</h4>
             <p className={style.servieslist}>
@@ -70,8 +70,8 @@ const page = () => {
               </li>
             </ul>
             <p>
-              Elevate your investment portfolio with Zephyer. Inquire today for
-              luxury and refinement in VC opportunities.
+              Elevate your investment portfolio with Zephyer venture partners.
+              Inquire today for luxury and refinement in VC opportunities.
             </p>
           </div>
         </div>

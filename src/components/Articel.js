@@ -24,15 +24,15 @@ const Articel = () => {
             Innovation
           </p>
           <p className={style.info}>
-            At Zephyer, we don't just manage wealth; we curate financial
-            odysseys. Picture us as the maestros of your monetary symphony,
-            where every investment is a note played to perfection. Our approach?
-            A blend of meticulous market analysis, cutting-edge technology, and
-            a dash of financial wizardry. We dive deep into the sea of
-            opportunities, surf the highest waves of potential, and tailor a
-            wealth management strategy that's as unique as your fingerprint.
-            With us, your financial journey is not just secure; it's
-            exhilarating!
+            At Zephyer venture partners, we don't just manage wealth; we curate
+            financial odysseys. Picture us as the maestros of your monetary
+            symphony, where every investment is a note played to perfection. Our
+            approach? A blend of meticulous market analysis, cutting-edge
+            technology, and a dash of financial wizardry. We dive deep into the
+            sea of opportunities, surf the highest waves of potential, and
+            tailor a wealth management strategy that's as unique as your
+            fingerprint. With us, your financial journey is not just secure;
+            it's exhilarating!
           </p>
         </div>
       </div>

@@ -11,9 +11,10 @@ const page = () => {
           <div className={style.servicecontentInfo}>
             <p>
               Immerse yourself in a world of luxury and sophistication with
-              Zephyer. Explore exceptional investment opportunities tailored for
-              our esteemed lending partners, promising substantial returns and
-              strategic portfolio diversification.
+              Zephyer venture partners. Explore exceptional investment
+              opportunities tailored for our esteemed lending partners,
+              promising substantial returns and strategic portfolio
+              diversification.
             </p>
             <h4>Our Services:</h4>
             <p className={style.servieslist}>
@@ -77,8 +78,9 @@ const page = () => {
               </li>
             </ul>
             <p>
-              Join Zephyer to elevate your investment portfolio with exclusive
-              VC opportunities. Contact us today to embark on this journey.
+              Join Zephyer venture partners to elevate your investment portfolio
+              with exclusive VC opportunities. Contact us today to embark on
+              this journey.
             </p>
           </div>
         </div>

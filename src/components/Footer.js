@@ -9,14 +9,16 @@ const Footer = () => {
       <div className={style.footerContainer}>
         <div className={style.contactSection}>
           <p className={style.title}>
-            Launch Your Wealth Into the Stratosphere with Zephyer
+            Launch Your Wealth Into the Stratosphere with Zephyer venture
+            partners
           </p>
           <p className={style.info}>
-            Elevate your wealth beyond the bounds with Zephyer. We're not just
-            about growth; we're about crafting legacies that stand the test of
-            time. Embark with us on a journey where your financial dreams soar
-            to new heights. Let's achieve the extraordinary together. With
-            Zephyer, there are no limits—only beginnings.
+            Elevate your wealth beyond the bounds with Zephyer venture partners.
+            We're not just about growth; we're about crafting legacies that
+            stand the test of time. Embark with us on a journey where your
+            financial dreams soar to new heights. Let's achieve the
+            extraordinary together. With Zephyer venture partners, there are no
+            limits—only beginnings.
           </p>
           <div className={style.herobtn}>
             <div className={`${style.firstbtn} ${style.button}`}>

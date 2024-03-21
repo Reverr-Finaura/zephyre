@@ -13,10 +13,10 @@ const page = () => {
         <div className={style.serviceContentArea}>
           <div className={style.servicecontentInfo}>
             <p>
-              Experience sophistication and opulence with Zephyer's exclusive
-              cross-border family office setup services. Our tailored solutions
-              elevate your global financial strategy to unmatched levels,
-              meeting your elite standards with precision.
+              Experience sophistication and opulence with Zephyer venture
+              partners's exclusive cross-border family office setup services.
+              Our tailored solutions elevate your global financial strategy to
+              unmatched levels, meeting your elite standards with precision.
             </p>
             <h4>Our Services:</h4>
             <p className={style.servieslist}>
@@ -79,8 +79,8 @@ const page = () => {
               </li>
             </ul>
             <p>
-              Embark on unparalleled cross-border wealth management with
-              Zephyer. Contact us today for an exclusive consultation.
+              Embark on unparalleled cross-border wealth management with Zephyer
+              venture partners. Contact us today for an exclusive consultation.
             </p>
           </div>
         </div>
