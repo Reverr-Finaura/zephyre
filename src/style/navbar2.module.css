@@ -34,13 +34,13 @@
     z-index: 1000;
     padding: 10px;
     background-color: rgba(11, 11, 34, 0.5);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     min-width: 210px;
     min-height: 100px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    transition: 0.4s ease-in-out;
+    transition: 1s;
 }
 
 .servicesItemlist {

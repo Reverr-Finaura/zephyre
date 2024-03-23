@@ -3,6 +3,7 @@ import styles from "../page.module.css";
 import style from "@/style/serviceContent.module.css";
 import Footer from "@/components/Footer";
 import Navbar2 from "@/components/Navbar2";
+import { termsAndConditions } from "@/asset";
 
 const page = () => {
   return (
@@ -14,49 +15,42 @@ const page = () => {
         <div className={styles.blurspot2}></div>
         <div className={style.serviceWrapper}>
           <div className={style.serviceContaienr}>
-            <h5>PAGE </h5>
-            <h2>Terms & Conditions</h2>
+            <h5>Terms & Conditions</h5>
+            <h2>
+              Read our guidelines for platform use. By accessing our services,
+              you agree to these rules covering user conduct, intellectual
+              property, and liability.
+            </h2>
             <div className={style.serviceContentArea}>
               <div className={style.servicecontentInfo}>
                 <p>
-                  By accessing and placing an order with Zephyer venture
-                  partners, you confirm that you are in agreement with and bound
-                  by the terms of service contained in the Terms & Conditions
-                  outlined below. These terms apply to the entire website and
-                  any email or other type of communication between you and
-                  Zephyer venture partners.
+                  These Terms and Conditions, along with privacy policy or other
+                  terms (“Terms”) constitute a binding agreement by and between
+                  ZEPHYER VENTURE PARTNERS LLP, ( “Website Owner” or “we” or
+                  “us” or “our”) and you (“you” or “your”) and relate to your
+                  use of our website, goods (as applicable) or services (as
+                  applicable) (collectively, “Services”).
                   <br />
                   <br />
-                  Under no circumstances shall Zephyer venture partners team be
-                  liable for any direct, indirect, special, incidental or
-                  consequential damages, including, but not limited to, loss of
-                  data or profit, arising out of the use, or the inability to
-                  use, the materials on this site, even if Zephyer venture
-                  partners team or an authorized representative has been advised
-                  of the possibility of such damages. If your use of materials
-                  from this site results in the need for servicing, repair or
-                  correction of equipment or data, you assume any costs thereof.
+                  By using our website and availing the Services, you agree that
+                  you have read and accepted these Terms(including the Privacy
+                  Policy). We reserve the right to modify these Terms at any
+                  time and without assigning any reason. It is your
+                  responsibility to periodically review these Terms to stay
+                  informed of updates.
                   <br />
-                  <br />
-                  Zephyer venture partners will not be responsible for any
-                  outcome that may occur during the course of usage of our
-                  resources. We reserve the rights to change prices and revise
-                  the resources usage policy in any moment.
                 </p>
-                <h4>License</h4>
-                <p>
-                  Zephyer venture partners grants you a revocable,
-                  non-exclusive, non- transferable, limited license to download,
-                  install and use the website strictly in accordance with the
-                  terms of this Agreement.
-                  <br />
-                  <br />
-                  These Terms & Conditions are a contract between you and
-                  Zephyer venture partners ("we," "our," or "us") grants you a
-                  revocable, non-exclusive, non- transferable, limited license
-                  to download, install and use the website strictly in
-                  accordance with the terms of this Agreement.
-                </p>
+                <h4>
+                  The use of this website or availing of our Services is subject
+                  to the following terms of use:
+                </h4>
+                <ul className={style.list}>
+                  {termsAndConditions.map((item, index) => (
+                    <li className={style.listItem} key={index}>
+                      <p>{item.ts}</p>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

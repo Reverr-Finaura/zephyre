@@ -69,7 +69,7 @@ const Footer = () => {
             {/* <p>Privacy Policy</p> */}
             <p>
               <Link href={"/terms-&-conditions"} className={style.link}>
-                Term of Service
+                Terms & conditions
               </Link>
             </p>
             {/* <p>Jobs</p> */}
