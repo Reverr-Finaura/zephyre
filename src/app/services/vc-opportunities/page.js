@@ -6,10 +6,7 @@ const page = () => {
     <div className={style.serviceWrapper}>
       <div className={style.serviceContaienr}>
         <h5>Service </h5>
-        <h2>
-          VC Opportunities <br />
-          for Single/Multi Family Office
-        </h2>
+        <h2>VC Opportunities for Single/Multi Family Office</h2>
         <div className={style.serviceContentArea}>
           <div className={style.servicecontentInfo}>
             <p>
