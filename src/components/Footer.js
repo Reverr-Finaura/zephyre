@@ -36,7 +36,7 @@ const Footer = () => {
         <div className={style.mainFooter}>
           <div className={style.mainFooterlogo}>
             <Image
-              src='/images/footerlogo.png'
+              src='/images/logo.png'
               alt={"logo"}
               width={185}
               height={57}
