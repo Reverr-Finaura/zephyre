@@ -24,7 +24,8 @@
 }
 
 .serviceContainer {
-    padding: 90px 180px 220px;
+    /* padding: 90px 180px 220px; */
+    padding: 90px 180px 150px;
     text-align: center;
     display: flex;
     flex-direction: column;

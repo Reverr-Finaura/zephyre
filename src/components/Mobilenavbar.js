@@ -9,8 +9,14 @@ const Mobilenavbar = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [showDropdown, setShowDropdown] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const nagivate = (item) => {
     router.push(item);
+    setShowDropdown(false);
+  };
+  const handleItemClick = (link) => {
+    router.push(link);
+    setIsOpen(false);
     setShowDropdown(false);
   };
   return (
@@ -63,7 +69,67 @@ const Mobilenavbar = () => {
                 About
               </span>
             </div>
-            <div className={style.navbarItemdiv}>
+            <div
+              className={style.navbarItemdiv}
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <span
+                className='navitem'
+                style={{
+                  color: "rgba(255, 255, 255, 0.8)",
+                  backgroundColor: "transparent",
+                }}
+              >
+                Service
+              </span>
+              {isOpen && (
+                <div className={style.navitemservice}>
+                  {services.map((item, index) => (
+                    <div key={index} className={style.servicesItem}>
+                      <span
+                        className={style.navitem}
+                        style={{
+                          color: "rgba(255, 255, 255, 0.8)",
+                          backgroundColor: "transparent",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        {item.name}
+                      </span>
+                      <div className={style.servicesItemlist}>
+                        {item.dropdown.map((nav, i) => (
+                          <div
+                            key={i}
+                            onClick={() => handleItemClick(nav.link)}
+                            className={style.navbarItemdiv}
+                          >
+                            <span
+                              className={style.navitem}
+                              style={{
+                                backgroundImage:
+                                  pathname === nav.link
+                                    ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                                    : "none",
+                                color:
+                                  pathname === nav.link
+                                    ? "transparent"
+                                    : "rgba(255, 255, 255, 0.8)",
+                                WebkitBackgroundClip: "text",
+                                backgroundClip: "text",
+                              }}
+                            >
+                              {nav.name}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* <div className={style.navbarItemdiv}>
               <span
                 className={style.navitem}
                 style={{
@@ -116,8 +182,8 @@ const Mobilenavbar = () => {
                   </div>
                 ))}
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className={style.navbarItemdiv}
               onClick={() => nagivate("/terms-&-conditions")}
             >
@@ -138,7 +204,7 @@ const Mobilenavbar = () => {
               >
                 T&Cs
               </span>
-            </div>
+            </div> */}
             <div
               className={style.navbarItemdiv}
               onClick={() => nagivate("/contactsection")}

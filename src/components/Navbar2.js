@@ -1,6 +1,6 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
-import React from "react";
+import React, { useState } from "react";
 import style from "../style/navbar2.module.css";
 import Image from "next/image";
 import { services } from "@/asset";
@@ -9,6 +9,11 @@ import Mobilenavbar from "./Mobilenavbar";
 const Navbar2 = () => {
   const router = useRouter();
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const handleItemClick = (link) => {
+    router.push(link);
+    setIsOpen(false);
+  };
   return (
     <div className={style.Navbar2}>
       <div className={style.Navbarcontainer}>
@@ -61,7 +66,66 @@ const Navbar2 = () => {
               About
             </span>
           </div>
-          <div className={style.navbarItemdiv}>
+          <div
+            className={style.navbarItemdiv}
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <span
+              className='navitem'
+              style={{
+                color: "rgba(255, 255, 255, 0.8)",
+                backgroundColor: "transparent",
+              }}
+            >
+              Service
+            </span>
+            {isOpen && (
+              <div className={style.navitemservice}>
+                {services.map((item, index) => (
+                  <div key={index} className={style.servicesItem}>
+                    <span
+                      className={style.navitem}
+                      style={{
+                        color: "rgba(255, 255, 255, 0.8)",
+                        backgroundColor: "transparent",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      {item.name}
+                    </span>
+                    <div className={style.servicesItemlist}>
+                      {item.dropdown.map((nav, i) => (
+                        <div
+                          key={i}
+                          onClick={() => handleItemClick(nav.link)}
+                          className={style.navbarItemdiv}
+                        >
+                          <span
+                            className={style.navitem}
+                            style={{
+                              backgroundImage:
+                                pathname === nav.link
+                                  ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                                  : "none",
+                              color:
+                                pathname === nav.link
+                                  ? "transparent"
+                                  : "rgba(255, 255, 255, 0.8)",
+                              WebkitBackgroundClip: "text",
+                              backgroundClip: "text",
+                            }}
+                          >
+                            {nav.name}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+          {/* <div className={style.navbarItemdiv}>
             <span
               className={style.navitem}
               style={{
@@ -114,8 +178,26 @@ const Navbar2 = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
+        </div>
+        <div onClick={() => router.push("/contactsection")}>
           <div
+            className={style.contactBtn}
+            onClick={() => router.push("/contactsection")}
+          >
+            <span>Contact Us</span>
+          </div>
+        </div>
+        <Mobilenavbar />
+      </div>
+    </div>
+  );
+};
+
+export default Navbar2;
+
+{
+  /* <div
             className={style.navbarItemdiv}
             onClick={() => router.push("/terms-&-conditions")}
           >
@@ -136,20 +218,5 @@ const Navbar2 = () => {
             >
               T&Cs
             </span>
-          </div>
-        </div>
-        <div onClick={() => router.push("/contactsection")}>
-          <div
-            className={style.contactBtn}
-            onClick={() => router.push("/contactsection")}
-          >
-            <span>Contact Us</span>
-          </div>
-        </div>
-        <Mobilenavbar />
-      </div>
-    </div>
-  );
-};
-
-export default Navbar2;
+          </div> */
+}

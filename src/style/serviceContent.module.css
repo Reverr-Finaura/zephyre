@@ -6,7 +6,9 @@
 
 .serviceContaienr {
     text-align: center;
-    padding: 50px 250px;
+    /* padding: 50px 250px; */
+    padding: 50px 150px;
+
 }
 
 .serviceContaienr>h5 {
@@ -34,7 +36,7 @@
 
 .serviceContentArea {
     border-top: 1px solid #FFFFFF1A;
-    padding: 50px 100px;
+    padding: 50px 0;
 }
 
 .servicecontentInfo {
@@ -90,7 +92,7 @@
     }
 
     .serviceContentArea {
-        padding: 40px;
+        padding: 40px 0;
     }
 }
 

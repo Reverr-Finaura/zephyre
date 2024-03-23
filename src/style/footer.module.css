@@ -3,7 +3,8 @@
 }
 
 .footerContainer {
-    padding: 40px 250px 40px;
+    /* padding: 40px 250px 40px; */
+    padding: 40px 150px 40px;
 }
 
 .herobtn {
@@ -16,7 +17,7 @@
 .contactSection {
     border-top: 1px solid #FFFFFF1A;
     border-bottom: 1px solid #FFFFFF1A;
-    padding: 30px 120px;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,7 +78,6 @@
 .mainFooter {
     justify-content: space-between;
     display: flex;
-
     margin-top: 50px;
 }
 
@@ -118,7 +118,7 @@
     }
 
     .contactSection {
-        padding: 50px;
+        padding: 50px 0;
     }
 
 

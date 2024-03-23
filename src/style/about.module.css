@@ -3,7 +3,8 @@
 }
 
 .aboutContainer {
-    padding: 50px 250px;
+    /* padding: 50px 250px; */
+    padding: 50px 150px;
 }
 
 .aboutHero {
@@ -83,6 +84,7 @@
 }
 
 .anotherHeroInfo {
+    margin-top: 50px;
     padding: 40px;
     display: flex;
     justify-content: space-around;
@@ -171,6 +173,15 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+}
+
+.ourTeamCard {
+    width: 100%;
+}
+
+.ourTeamCard>.ourTeamCardsImage {
+    width: 100%;
+    height: auto;
 }
 
 .ourTeamCardsBottom {

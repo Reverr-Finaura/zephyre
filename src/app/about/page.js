@@ -49,8 +49,8 @@ const page = () => {
             <div className={style.anotherHero}>
               <h5>STATISTICS</h5>
               <p className={style.title}>
-                In 3 years we reached 8 <br />
-                countries, 193 clients and earning <br /> $100k USD
+                In 3 years we reached 8 countries, 193 clients and earning $100k
+                USD
               </p>
               <div className={style.anotherHeroInfo}>
                 <div className={style.contactTypeItem}>
@@ -63,8 +63,8 @@ const page = () => {
                     />
                   </div>
                   <div className={style.contactTypeItemsinfo}>
-                    <p>8</p>
                     <h5>COUNTRIES</h5>
+                    <p>8</p>
                   </div>
                 </div>
                 <div className={style.contactTypeItem}>
@@ -77,8 +77,8 @@ const page = () => {
                     />
                   </div>
                   <div className={style.contactTypeItemsinfo}>
-                    <p>193</p>
                     <h5>CLIENTS</h5>
+                    <p>193</p>
                   </div>
                 </div>
                 <div className={style.contactTypeItem}>
@@ -91,8 +91,8 @@ const page = () => {
                     />
                   </div>
                   <div className={style.contactTypeItemsinfo}>
-                    <p>$100k</p>
                     <h5>EARNING</h5>
+                    <p>$100k</p>
                   </div>
                 </div>
               </div>
@@ -109,12 +109,12 @@ const page = () => {
             <div className={style.ourTeam}>
               <h5>OUR TEAM</h5>
               <p className={style.title}>
-                Meet the team! All creative <br /> people are here
+                Meet the team! All creative people are here
               </p>
               <div className={style.ourTeamCards}>
                 {ourTeam.map((item, index) => {
                   return (
-                    <div key={index}>
+                    <div key={index} className={style.ourTeamCard}>
                       <Image
                         src={item.image}
                         alt='logo'

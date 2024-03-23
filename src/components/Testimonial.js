@@ -26,11 +26,11 @@ const Testimonial = () => {
   return (
     <section className={style.testimonial}>
       <div className={style.testimonialContainer}>
-        <h5>TESTIMONIAL</h5>
-        <h3>
+        <h5>TESTIMONIALS</h5>
+        {/* <h3>
           What do our clients say that we <br />
           never let down?
-        </h3>
+        </h3> */}
         <div className={style.testimonialCards}>
           {testimonial.map((item, index) => {
             return (

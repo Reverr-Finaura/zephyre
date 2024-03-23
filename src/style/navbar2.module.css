@@ -28,6 +28,40 @@
     background-color: white;
 }
 
+.navitemservice {
+    position: absolute;
+    z-index: 1000;
+    padding: 10px;
+    background-color: rgba(11, 11, 34, 1);
+    min-width: 210px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.4s;
+}
+
+.servicesItemlist {
+    margin-left: 20px;
+}
+
+.servicesItemlist {
+    margin-left: 20px;
+    display: none;
+    transition: 0.4s;
+
+}
+
+.servicesItem:hover .servicesItemlist {
+    display: block;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.4s;
+}
+
+/* 
 .navbarItemdiv:hover .navitemservice {
     visibility: visible;
 }
@@ -48,19 +82,20 @@
     cursor: pointer;
 }
 
+.servicesItemlist {
+    margin-left: 20px;
+    display: none;
+
+}
+
 .servicesItem:hover .servicesItemlist {
     display: block;
     padding: 5px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} */
 
-.servicesItemlist {
-    margin-left: 20px;
-    display: none;
-
-}
 
 .contactBtn {
     text-decoration: none;

@@ -54,7 +54,7 @@ const Footer = () => {
             <p>Family Office Services</p>
           </div> */}
           <div className={style.footerOptions}>
-            <h5>Company</h5>
+            <h5>Links</h5>
             <p>
               <Link href={"/about"} className={style.link}>
                 About

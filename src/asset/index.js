@@ -143,67 +143,25 @@ export const planing2 = [
 
 export const testimonial = [
   {
-    image: "/images/Avatar.png",
-    name: "Courtney Henry",
-    company: "Biffco Enterprises Ltd.",
+    image: "/images/dp.png",
+    name: "Sahiel Khurana",
+    company: "Max Technologies",
     testimonial:
-      "Very easy to use. I made back the purchase price in just 48 hours! Its great. Its is both attractive and highly adaptable",
+      " Working with Zephyer Venture Partners was a game-changer for us. Their expertise helped us navigate complex challenges and accelerate our growth.They are the perfect partner for any entrepreneur",
   },
   {
-    image: "/images/Avatar.png",
-    name: "Ronald Richards",
-    company: "Barone LLC.",
+    image: "/images/dp.png",
+    name: "Nitin Gupta",
+    company: "XO Footwear Pvt Ltd",
     testimonial:
-      "I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. ",
+      "Zephyer Venture Partners went above and beyond for us. With their hands-on help and market know-how, they shaped our strategy. Their network connected us to big opportunities, taking our company to the next level. We're thankful for their support and dedication",
   },
   {
-    image: "/images/Avatar.png",
-    name: "Abstergo Ltd.",
-    company: "Abstergo Ltd.",
+    image: "/images/dp.png",
+    name: "Anil Mitra",
+    company: "Mitras Technosoft Pvt Ltd",
     testimonial:
-      "Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business.",
-  },
-  {
-    image: "/images/Avatar.png",
-    name: "Courtney Henry",
-    company: "Biffco Enterprises Ltd.",
-    testimonial:
-      "Very easy to use. I made back the purchase price in just 48 hours! Its great. Its is both attractive and highly adaptable",
-  },
-  {
-    image: "/images/Avatar.png",
-    name: "Ronald Richards",
-    company: "Barone LLC.",
-    testimonial:
-      "I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. ",
-  },
-  {
-    image: "/images/Avatar.png",
-    name: "Abstergo Ltd.",
-    company: "Abstergo Ltd.",
-    testimonial:
-      "Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business.",
-  },
-  {
-    image: "/images/Avatar.png",
-    name: "Courtney Henry",
-    company: "Biffco Enterprises Ltd.",
-    testimonial:
-      "Very easy to use. I made back the purchase price in just 48 hours! Its great. Its is both attractive and highly adaptable",
-  },
-  {
-    image: "/images/Avatar.png",
-    name: "Ronald Richards",
-    company: "Barone LLC.",
-    testimonial:
-      "I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. ",
-  },
-  {
-    image: "/images/Avatar.png",
-    name: "Abstergo Ltd.",
-    company: "Abstergo Ltd.",
-    testimonial:
-      "Your company is truly upstanding and is behind its product 100%. It's the perfect solution for our business. It has really helped our business.",
+      "Choosing Zephyer Venture Partners was pivotal for our venture. Their commitment to innovation and strategic investments fueled our rapid growth. Their approach and genuine passion for startups make them standout partners in the industry",
   },
 ];
 
