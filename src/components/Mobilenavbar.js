@@ -80,7 +80,7 @@ const Mobilenavbar = () => {
                   backgroundColor: "transparent",
                 }}
               >
-                Service
+                Services
               </span>
               {isOpen && (
                 <div className={style.navitemservice}>
