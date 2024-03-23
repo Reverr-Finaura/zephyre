@@ -13,11 +13,11 @@ const Footer = () => {
             partners
           </p>
           <p className={style.info}>
-            Elevate your wealth beyond the bounds with Zephyer venture partners.
+            Elevate your wealth beyond the bounds with Zephyer Venture Partners.
             We're not just about growth; we're about crafting legacies that
             stand the test of time. Embark with us on a journey where your
             financial dreams soar to new heights. Let's achieve the
-            extraordinary together. With Zephyer venture partners, there are no
+            extraordinary together. With Zephyer Venture Partners, there are no
             limits—only beginnings.
           </p>
           <div className={style.herobtn}>

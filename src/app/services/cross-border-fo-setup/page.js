@@ -14,7 +14,7 @@ const page = () => {
           <div className={style.servicecontentInfo}>
             <p>
               Explore unparalleled global wealth management and personalised
-              financial planning with Zephyer venture partners. Our exclusive
+              financial planning with Zephyer Venture Partners. Our exclusive
               family office services cater to discerning single and multi-family
               offices seeking sophistication and excellence.
             </p>

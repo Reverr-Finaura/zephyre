@@ -70,7 +70,7 @@ const page = () => {
               </li>
             </ul>
             <p>
-              Elevate your investment portfolio with Zephyer venture partners.
+              Elevate your investment portfolio with Zephyer Venture Partners.
               Inquire today for luxury and refinement in VC opportunities.
             </p>
           </div>

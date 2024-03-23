@@ -47,7 +47,7 @@ const Testimonial = () => {
                 </div>
                 <h5>{item.name}</h5>
                 <h6>{item.company}</h6>
-                <p>"{item.testimonial}"</p>
+                <p>{item.testimonial}</p>
               </div>
             );
           })}

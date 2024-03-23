@@ -24,7 +24,7 @@ const Articel = () => {
             Innovation
           </p>
           <p className={style.info}>
-            At Zephyer venture partners, we don't just manage wealth; we curate
+            At Zephyer Venture Partners, we don't just manage wealth; we curate
             financial odysseys. Picture us as the maestros of your monetary
             symphony, where every investment is a note played to perfection. Our
             approach? A blend of meticulous market analysis, cutting-edge

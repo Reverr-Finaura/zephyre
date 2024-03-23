@@ -13,7 +13,7 @@ const page = () => {
         <div className={style.serviceContentArea}>
           <div className={style.servicecontentInfo}>
             <p>
-              Elevate your startup's journey with Zephyer venture partners's
+              Elevate your startup's journey with Zephyer Venture Partners's
               exclusive investment banking services. Our team of industry
               experts offers tailored solutions to fuel your success in the
               entrepreneurial landscape.

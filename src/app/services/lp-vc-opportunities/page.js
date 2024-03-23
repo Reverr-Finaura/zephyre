@@ -11,7 +11,7 @@ const page = () => {
           <div className={style.servicecontentInfo}>
             <p>
               Immerse yourself in a world of luxury and sophistication with
-              Zephyer venture partners. Explore exceptional investment
+              Zephyer Venture Partners. Explore exceptional investment
               opportunities tailored for our esteemed lending partners,
               promising substantial returns and strategic portfolio
               diversification.
@@ -78,7 +78,7 @@ const page = () => {
               </li>
             </ul>
             <p>
-              Join Zephyer venture partners to elevate your investment portfolio
+              Join Zephyer Venture Partners to elevate your investment portfolio
               with exclusive VC opportunities. Contact us today to embark on
               this journey.
             </p>

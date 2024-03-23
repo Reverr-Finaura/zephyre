@@ -14,7 +14,7 @@ const page = () => {
           <div className={style.servicecontentInfo}>
             <p>
               Embark on a transformative journey into the public markets with
-              Zephyer venture partners's exclusive IPO services. We offer
+              Zephyer Venture Partners's exclusive IPO services. We offer
               tailored support specifically designed for startups, ensuring a
               seamless and triumphant entrance into the world of publicly traded
               companies.
@@ -93,7 +93,7 @@ const page = () => {
             </ul>
             <p>
               Prepare for success in the public markets with premium IPO
-              services from Zephyer venture partners. Contact us today to learn
+              services from Zephyer Venture Partners. Contact us today to learn
               more about how we can support your IPO journey.
             </p>
           </div>
