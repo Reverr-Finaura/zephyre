@@ -12,7 +12,10 @@
 }
 
 .serviceContaienr>h5 {
-    color: #16FCD2;
+    background: linear-gradient(90deg, #F9D689 0%, #BE7A31 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 600;

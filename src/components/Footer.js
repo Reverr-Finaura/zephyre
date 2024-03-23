@@ -41,7 +41,7 @@ const Footer = () => {
               width={185}
               height={57}
             />
-            <p>Copyright © 2024</p>
+            <p>Copyright © 2024 Zephyer. All rights reserved.</p>
             {/* <p>A unit of D Square Ventures Pvt Ltd</p> */}
           </div>
           {/* <div className={style.footerOptions}>
@@ -54,7 +54,7 @@ const Footer = () => {
             <p>Family Office Services</p>
           </div> */}
           <div className={style.footerOptions}>
-            <h5>Links</h5>
+            <h5>Quick Links</h5>
             <p>
               <Link href={"/about"} className={style.link}>
                 About
@@ -69,7 +69,7 @@ const Footer = () => {
             {/* <p>Privacy Policy</p> */}
             <p>
               <Link href={"/terms-&-conditions"} className={style.link}>
-                Terms & conditions
+                Terms & Conditions
               </Link>
             </p>
             {/* <p>Jobs</p> */}

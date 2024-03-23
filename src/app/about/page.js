@@ -63,8 +63,8 @@ const page = () => {
                     />
                   </div>
                   <div className={style.contactTypeItemsinfo}>
-                    <h5>COUNTRIES</h5>
                     <p>8</p>
+                    <h5>COUNTRIES</h5>
                   </div>
                 </div>
                 <div className={style.contactTypeItem}>
@@ -77,8 +77,8 @@ const page = () => {
                     />
                   </div>
                   <div className={style.contactTypeItemsinfo}>
-                    <h5>CLIENTS</h5>
                     <p>193</p>
+                    <h5>CLIENTS</h5>
                   </div>
                 </div>
                 <div className={style.contactTypeItem}>
@@ -91,8 +91,8 @@ const page = () => {
                     />
                   </div>
                   <div className={style.contactTypeItemsinfo}>
-                    <h5>EARNING</h5>
                     <p>$100k</p>
+                    <h5>EARNING</h5>
                   </div>
                 </div>
               </div>

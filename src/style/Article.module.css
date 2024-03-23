@@ -35,7 +35,10 @@
 }
 
 .articleInfoSection>h5 {
-    color: #16FCD2;
+    background-image: linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 600;

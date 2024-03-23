@@ -32,7 +32,10 @@
 
 
 .aboutHeroRight>h5 {
-    color: #16FCD2;
+    background-image: linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 600;
@@ -65,7 +68,10 @@
 }
 
 .anotherHero>h5 {
-    color: #16FCD2;
+    background-image: linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 600;
@@ -107,8 +113,7 @@
 
 .contactTypeItemsinfo {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .contactTypeItemsinfo>h5 {
@@ -149,7 +154,10 @@
 }
 
 .ourTeam>h5 {
-    color: #16FCD2;
+    background: linear-gradient(90deg, #F9D689 0%, #BE7A31 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 600;

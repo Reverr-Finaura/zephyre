@@ -33,7 +33,7 @@ const Mobilenavbar = () => {
                 style={{
                   backgroundImage:
                     pathname === "/"
-                      ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                      ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
                       : "none",
                   color:
                     pathname === "/"
@@ -56,7 +56,7 @@ const Mobilenavbar = () => {
                 style={{
                   backgroundImage:
                     pathname === "/about"
-                      ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                      ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
                       : "none",
                   color:
                     pathname === "/about"
@@ -108,7 +108,7 @@ const Mobilenavbar = () => {
                               style={{
                                 backgroundImage:
                                   pathname === nav.link
-                                    ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                                    ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
                                     : "none",
                                 color:
                                   pathname === nav.link
@@ -128,8 +128,39 @@ const Mobilenavbar = () => {
                 </div>
               )}
             </div>
+            <div
+              className={style.navbarItemdiv}
+              onClick={() => nagivate("/contactsection")}
+            >
+              <span
+                className={style.navitem}
+                style={{
+                  backgroundImage:
+                    pathname === "/contactsection"
+                      ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                      : "none",
+                  color:
+                    pathname === "/contactsection"
+                      ? "transparent"
+                      : "rgba(255, 255, 255, 0.8)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                }}
+              >
+                Contact Us
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
 
-            {/* <div className={style.navbarItemdiv}>
+export default Mobilenavbar;
+
+{
+  /* <div className={style.navbarItemdiv}>
               <span
                 className={style.navitem}
                 style={{
@@ -182,8 +213,10 @@ const Mobilenavbar = () => {
                   </div>
                 ))}
               </div>
-            </div> */}
-            {/* <div
+            </div> */
+}
+{
+  /* <div
               className={style.navbarItemdiv}
               onClick={() => nagivate("/terms-&-conditions")}
             >
@@ -204,34 +237,5 @@ const Mobilenavbar = () => {
               >
                 T&Cs
               </span>
-            </div> */}
-            <div
-              className={style.navbarItemdiv}
-              onClick={() => nagivate("/contactsection")}
-            >
-              <span
-                className={style.navitem}
-                style={{
-                  backgroundImage:
-                    pathname === "/contactsection"
-                      ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
-                      : "none",
-                  color:
-                    pathname === "/contactsection"
-                      ? "transparent"
-                      : "rgba(255, 255, 255, 0.8)",
-                  WebkitBackgroundClip: "text",
-                  backgroundClip: "text",
-                }}
-              >
-                Contact Us
-              </span>
-            </div>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-};
-
-export default Mobilenavbar;
+            </div> */
+}

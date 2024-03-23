@@ -33,7 +33,7 @@ const Navbar2 = () => {
               style={{
                 backgroundImage:
                   pathname === "/"
-                    ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                    ? "linear-gradient(90deg, #F9D689 0%, #BE7A31 100%)"
                     : "none",
                 color:
                   pathname === "/" ? "transparent" : "rgba(255, 255, 255, 0.8)",
@@ -53,7 +53,7 @@ const Navbar2 = () => {
               style={{
                 backgroundImage:
                   pathname === "/about"
-                    ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                    ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
                     : "none",
                 color:
                   pathname === "/about"
@@ -105,7 +105,7 @@ const Navbar2 = () => {
                             style={{
                               backgroundImage:
                                 pathname === nav.link
-                                  ? "linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%)"
+                                  ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
                                   : "none",
                               color:
                                 pathname === nav.link
@@ -125,7 +125,25 @@ const Navbar2 = () => {
               </div>
             )}
           </div>
-          {/* <div className={style.navbarItemdiv}>
+        </div>
+        <div onClick={() => router.push("/contactsection")}>
+          <div
+            className={style.contactBtn}
+            onClick={() => router.push("/contactsection")}
+          >
+            <span>Contact Us</span>
+          </div>
+        </div>
+        <Mobilenavbar />
+      </div>
+    </div>
+  );
+};
+
+export default Navbar2;
+
+{
+  /* <div className={style.navbarItemdiv}>
             <span
               className={style.navitem}
               style={{
@@ -178,23 +196,8 @@ const Navbar2 = () => {
                 </div>
               ))}
             </div>
-          </div> */}
-        </div>
-        <div onClick={() => router.push("/contactsection")}>
-          <div
-            className={style.contactBtn}
-            onClick={() => router.push("/contactsection")}
-          >
-            <span>Contact Us</span>
-          </div>
-        </div>
-        <Mobilenavbar />
-      </div>
-    </div>
-  );
-};
-
-export default Navbar2;
+          </div> */
+}
 
 {
   /* <div
