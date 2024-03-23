@@ -129,7 +129,27 @@
     border: none;
 }
 
-@media screen and (max-width:890px) {
+@media screen and (max-width:1024px) {
+    .serviceContainer {
+        padding: 50px;
+    }
+
+    .allcard {
+        margin-top: 30px;
+    }
+
+    .card {
+        max-width: 350px;
+        min-width: auto;
+    }
+
+    .cardList {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:824px) {
     .serviceContainer {
         padding: 50px;
     }
