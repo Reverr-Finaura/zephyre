@@ -29,10 +29,12 @@
 }
 
 .navitemservice {
+    border-radius: 5px;
     position: absolute;
     z-index: 1000;
     padding: 10px;
-    background-color: rgba(11, 11, 34, 1);
+    background-color: rgba(11, 11, 34, 0.5);
+    backdrop-filter: blur(5px);
     min-width: 210px;
     min-height: 100px;
     display: flex;
