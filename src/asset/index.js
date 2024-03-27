@@ -167,34 +167,24 @@ export const testimonial = [
 
 export const ourTeam = [
   {
-    name: "Albert Flores",
-    type: "Founder",
-    image: "/images/ourteamImage.png",
+    name: "Deepak Soni",
+    type: "25+ years of experience in running business enterprises building on core Corporate Finance competence with a specialization in originating, developing and consummating high value, strategic international deals.",
+    image: "/images/deepak.jpeg",
   },
   {
-    name: "Albert Flores",
-    type: "Founder",
-    image: "/images/ourteamImage.png",
+    name: "Pankaj Dawar",
+    type: "25+ years' diverse experience in Banking, ITES, and major industries domestically and internationally.",
+    image: "/images/pankaj.jpeg",
   },
   {
-    name: "Albert Flores",
-    type: "Founder",
-    image: "/images/ourteamImage.png",
+    name: "Anand Kishore Srivastava",
+    type: "Over 40 years of experience in banking and investment banking, with expertise in leading over 50 IPOs across Main Board and SME Platforms.",
+    image: "/images/anand.PNG",
   },
   {
-    name: "Albert Flores",
-    type: "Founder",
-    image: "/images/ourteamImage.png",
-  },
-  {
-    name: "Albert Flores",
-    type: "Founder",
-    image: "/images/ourteamImage.png",
-  },
-  {
-    name: "Albert Flores",
-    type: "Founder",
-    image: "/images/ourteamImage.png",
+    name: "Mani Raman Subra",
+    type: "Over three decades of successful leadership in banking and financial services, including CEO and CFO roles in SMEs and startups.",
+    image: "/images/mana.jpg",
   },
 ];
 

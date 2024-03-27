@@ -178,24 +178,27 @@
 .ourTeamCards {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 }
 
 .ourTeamCard {
     width: 100%;
+    height: 100%;
 }
 
 .ourTeamCard>.ourTeamCardsImage {
     width: 100%;
-    height: auto;
+    height: 60%;
+    object-fit: cover;
 }
 
 .ourTeamCardsBottom {
     text-align: start;
     background: rgba(255, 255, 255, 0.05);
     color: white;
+    height: 40%;
     padding: 20px 30px;
 }
 
