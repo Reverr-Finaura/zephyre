@@ -26,18 +26,18 @@ const ContactForm = () => {
     setLoading(true);
     const templateParams = {
       form_name: formData.name,
-      to_name: formData.name,
+      to_name: "Zephyre",
       reply_to: formData.email,
       message: formData.message,
     };
 
     try {
-      // await emailjs.sendForm(
-      //   "service_9q5fuh2",
-      //   "template_607ne0f",
-      //   templateParams,
-      //   { publicKey: "wdtI23ErZXMrLHXfs" }
-      // );
+      await emailjs.send(
+        "service_9q5fuh2",
+        "template_607ne0f",
+        templateParams,
+        "wdtI23ErZXMrLHXfs"
+      );
 
       const timeId = new Date().getTime().toString();
       await setDoc(doc(database, "Form", timeId), formData);
