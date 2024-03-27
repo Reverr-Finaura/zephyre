@@ -108,9 +108,7 @@ const page = () => {
             </div>
             <div className={style.ourTeam}>
               <h5>OUR TEAM</h5>
-              <p className={style.title}>
-                Meet the team! All creative people are here
-              </p>
+              <p className={style.title}>Meet the team!</p>
               <div className={style.ourTeamCards}>
                 {ourTeam.map((item, index) => {
                   return (
