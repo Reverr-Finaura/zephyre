@@ -38,7 +38,6 @@ const ContactForm = () => {
         templateParams,
         "wdtI23ErZXMrLHXfs"
       );
-
       const timeId = new Date().getTime().toString();
       await setDoc(doc(database, "Form", timeId), formData);
       toast.success("Sent successfully");
