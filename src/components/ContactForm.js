@@ -33,10 +33,10 @@ const ContactForm = () => {
 
     try {
       await emailjs.send(
-        "service_9q5fuh2",
-        "template_607ne0f",
+        "service_75hv915",
+        "template_ey7qj0f",
         templateParams,
-        "wdtI23ErZXMrLHXfs"
+        "XoxXCd2l9_6rumw8j"
       );
       const timeId = new Date().getTime().toString();
       await setDoc(doc(database, "Form", timeId), formData);
