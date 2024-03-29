@@ -8,7 +8,7 @@ const HeroBanner = () => {
     <section className={style.heroBanner}>
       <div className={style.heroBannerContainer}>
         <p className={style.title}>
-          Elevating Wealth Management for the Ultra High Net Worth
+          Elevating Investor opportunities for the Ultra High Net Worth
         </p>
         <p className={style.info}>
           Unlock a world of exclusive investment opportunities meticulously
