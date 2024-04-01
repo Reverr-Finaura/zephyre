@@ -17,7 +17,7 @@ const Service = () => {
       />
       <div className={style.serviceContainer}>
         <h3>Our Services</h3>
-        <h5>An assortment of our Financial Delicacies</h5>
+        <h5>An Assortment of our Financial Delicacies</h5>
         <div className={style.allcard}>
           <div className={style.cardList}>
             {planing1.map((item, index) => {
