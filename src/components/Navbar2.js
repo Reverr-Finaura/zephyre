@@ -80,7 +80,11 @@ const Navbar2 = () => {
               Services
             </span>
             {isOpen && (
-              <div className={style.navitemservice}>
+              <div
+                className={`${style.navitemservice} ${
+                  isOpen ? style.open : ""
+                }`}
+              >
                 {services.map((item, index) => (
                   <div key={index} className={style.servicesItem}>
                     <span

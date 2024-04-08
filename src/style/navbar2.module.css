@@ -35,22 +35,26 @@
     padding: 10px;
     background-color: rgba(11, 11, 34, 0.5);
     min-width: 210px;
-    min-height: 100px;
+    min-height: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    transition: 1s;
+    opacity: 0;
+    transition: all 0.5s ease-out;
 }
 
-.servicesItemlist {
-    margin-left: 20px;
+.navitemservice.open {
+    opacity: 1;
+    min-height: 100px;
+    transition: all 0.5s ease-out;
 }
+
+
 
 .servicesItemlist {
     margin-left: 20px;
     display: none;
-    transition: 0.4s;
-
+    /* transition: all 0.5s ease-out; */
 }
 
 .servicesItem:hover .servicesItemlist {
@@ -59,43 +63,9 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    transition: 0.4s;
-}
-
-/* 
-.navbarItemdiv:hover .navitemservice {
-    visibility: visible;
-}
-
-.navitemservice {
-    padding: 10px;
-    visibility: hidden;
-    position: absolute;
-    min-width: 210px;
-    min-height: 100px;
-    background-color: rgba(11, 11, 34, 1);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.servicesItem {
-    cursor: pointer;
-}
-
-.servicesItemlist {
-    margin-left: 20px;
-    display: none;
+    transition: all 0.5s ease-out;
 
 }
-
-.servicesItem:hover .servicesItemlist {
-    display: block;
-    padding: 5px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-} */
 
 
 .contactBtn {
