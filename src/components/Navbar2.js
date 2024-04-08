@@ -71,7 +71,7 @@ const Navbar2 = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             <span
-              className='navitem'
+              className={style.navitem}
               style={{
                 color: "rgba(255, 255, 255, 0.8)",
                 backgroundColor: "transparent",
