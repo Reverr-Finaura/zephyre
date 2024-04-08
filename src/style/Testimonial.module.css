@@ -38,7 +38,7 @@
     display: flex;
     align-items: flex-end;
     gap: 60px;
-    height: 600px;
+    height: 500px;
 }
 
 .testimonialCards::-webkit-scrollbar {
@@ -47,10 +47,10 @@
 
 .testimonialCard {
     background-color: #FFFFFF0D;
-    padding: 50px;
+    padding: 40px;
     max-width: 400px;
     min-width: 400px;
-    min-height: 500px;
+    min-height: 450px;
     transition: transform 0.3s ease;
     z-index: 100;
 }

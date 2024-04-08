@@ -35,7 +35,7 @@ const Testimonial = () => {
           {testimonial.map((item, index) => {
             return (
               <div key={index} className={style.testimonialCard}>
-                <div className={style.testimonialCardImg}>
+                {/* <div className={style.testimonialCardImg}>
                   <Image src={item.image} alt={"logo"} width={90} height={90} />
                   <Image
                     src='/images/bage.png'
@@ -44,7 +44,7 @@ const Testimonial = () => {
                     height={28}
                     className={style.badge}
                   />
-                </div>
+                </div> */}
                 <h5>{item.name}</h5>
                 <h6>{item.company}</h6>
                 <p>{item.testimonial}</p>
