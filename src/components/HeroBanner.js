@@ -30,6 +30,13 @@ const HeroBanner = () => {
         </div>
         <div className={style.company}>
           <Image
+            src='/images/comapny.png'
+            alt={"logo"}
+            width={780}
+            height={40}
+            className={style.companyImage}
+          />
+          {/* <Image
             src='/images/compnay/10-YEARS-OF-INC42-WHITE-LOGO.png'
             alt={"logo"}
             width={780}
@@ -63,7 +70,7 @@ const HeroBanner = () => {
             width={780}
             height={40}
             className={style.companyImage}
-          />
+          /> */}
         </div>
       </div>
     </section>

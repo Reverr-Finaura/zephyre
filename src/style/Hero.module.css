@@ -94,11 +94,11 @@
     border-bottom: 1px solid #FFFFFF1A;
 }
 
-.companyImage {
+/* .companyImage {
     width: auto;
     height: 30px;
     object-fit: cover;
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .heroBannerContainer {
@@ -148,7 +148,7 @@
     }
 
     .companyImageextra {
-        width: auto;
-        height: 20px;
+        width: 100%;
+        height: auto;
     }
 }

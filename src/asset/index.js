@@ -103,8 +103,8 @@ export const services = [
 export const planing1 = [
   {
     image: "/images/icon1.png",
-    title: "GIFT City Fund Setup    ",
-    desc: "Zephyer also assists with fund setup in GIFT City. With expertise in fund establishment, tailored solutions, regulatory compliance, networking, and ongoing support, Zephyer facilitates a smooth and compliant process for fund managers. Leveraging their experience and resources, Zephyer enables fund managers to navigate the complexities of GIFT City's regulatory environment and maximise opportunities for success in this burgeoning financial centre.",
+    title: "VC Opportunities (FO)",
+    desc: "Explore tailored investment opportunities with Zephyer for family offices. Benefit from our startup expertise, exclusive access, and strategic exit planning for remarkable returns.",
     linkname: "/services/vc-opportunities",
   },
   {
@@ -121,17 +121,11 @@ export const planing1 = [
   },
 ];
 export const planing2 = [
-  // {
-  //   image: "/images/icon1.png",
-  //   title: "Cross Border Setup (FO & Fund) for LPs",
-  //   desc: "Experience sophistication with Zephyer's cross-border family office setup. Tailored solutions elevate your global strategy, including structuring, investment advisory, wealth preservation, and lifestyle management.",
-  //   linkname: "/services/lp-cross-border-setup",
-  // },
   {
     image: "/images/icon1.png",
-    title: "VC opportunities for LPs",
-    desc: "Indulge in luxury with Zephyer's tailored investment opportunities for lending partners. Benefit from startup access, risk management, flexible structures, and strategic networking for substantial returns",
-    linkname: "/services/lp-vc-opportunities",
+    title: "Cross Border Setup (FO & Fund) for LPs",
+    desc: "Experience sophistication with Zephyer's cross-border family office setup. Tailored solutions elevate your global strategy, including structuring, investment advisory, wealth preservation, and lifestyle management.",
+    linkname: "/services/lp-cross-border-setup",
   },
   {
     image: "/images/icon1.png",
