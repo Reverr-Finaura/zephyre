@@ -8,7 +8,7 @@ const HeroBanner = () => {
     <section className={style.heroBanner}>
       <div className={style.heroBannerContainer}>
         <p className={style.title}>
-          Elevating Investor Opportunities for the Ultra High Net Worth
+          Elevate your Wealth with Exclusive GIFT City Fund Solutions
         </p>
         <p className={style.info}>
           Unlock a world of exclusive investment opportunities meticulously
@@ -30,7 +30,35 @@ const HeroBanner = () => {
         </div>
         <div className={style.company}>
           <Image
-            src='/images/comapny.png'
+            src='/images/compnay/10-YEARS-OF-INC42-WHITE-LOGO.png'
+            alt={"logo"}
+            width={780}
+            height={40}
+            className={style.companyImage}
+          />
+          <Image
+            src='/images/compnay/Forb.png'
+            alt={"logo"}
+            width={780}
+            height={40}
+            className={style.companyImage}
+          />
+          <Image
+            src='/images/compnay/OIP.png'
+            alt={"logo"}
+            width={50}
+            height={50}
+            className={style.companyImageextra}
+          />
+          <Image
+            src='/images/compnay/Google Logo.png'
+            alt={"logo"}
+            width={780}
+            height={40}
+            className={style.companyImage}
+          />
+          <Image
+            src='/images/compnay/livemint-logo-v2.png'
             alt={"logo"}
             width={780}
             height={40}
