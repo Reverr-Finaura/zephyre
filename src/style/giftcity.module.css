@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.firstContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 140px;
+    text-align: center;
+}
+
+.firstContainer>.title {
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-align: center;
+    background-image: linear-gradient(145.55deg, #ECECEC 20.35%, rgba(236, 236, 236, 0) 128.73%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.firstContainer>.info {
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF99;
+}
+
+.herobtn {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.herobtn>.button {
+    width: 209px;
+    padding: 15px 55px 15px 55px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+
+}
+
+.firstbtn {
+    background: #6016FC;
+    border: none;
+}
+
+.linkName {
+    text-decoration: none;
+    color: white;
+}
+
+.secondConatiner {
+    text-align: start;
+    padding: 50px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.secondConatiner>.title {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.secondConatiner>.info {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: #FFFFFF99;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .firstContainer,
+    .secondConatiner {
+        padding: 50px;
+    }
+
+    .firstContainer>.info {
+        padding: 0;
+    }
+
+    .firstContainer {
+        padding: 50px;
+    }
+
+    .secondContainer {
+        padding: 50px;
+    }
+
+    .articleInfoSection {
+        padding: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .firstContainer {
+        padding: 30px;
+    }
+
+    .firstContainer>.title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .firstContainer>.info {
+        padding: 0;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 28px;
+    }
+
+    .secondConatiner {
+        padding: 30px;
+    }
+
+    .secondConatiner>.title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .secondConatiner>.info {
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+    }
+
+    .herobtn {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,19 +1,14 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import style from "../style/navbar2.module.css";
 import Image from "next/image";
-import { services } from "@/asset";
+import { Giftcity, resource, services } from "@/asset";
 import Mobilenavbar from "./Mobilenavbar";
 
 const Navbar2 = () => {
   const router = useRouter();
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
-  const handleItemClick = (link) => {
-    router.push(link);
-    setIsOpen(false);
-  };
   return (
     <div className={style.Navbar2}>
       <div className={style.Navbarcontainer}>
@@ -44,6 +39,66 @@ const Navbar2 = () => {
               Home
             </span>
           </div>
+          <DropdownMenu dropmenu={Giftcity} menuname="Gift city" />
+          <div className={style.navbarItemdiv} onClick={() => router.push("/business")}>
+            <span
+              className={style.navitem}
+              style={{
+                backgroundImage:
+                  pathname === "/business"
+                    ? "linear-gradient(90deg, #F9D689 0%, #BE7A31 100%)"
+                    : "none",
+                color:
+                  pathname === "/business" ? "transparent" : "rgba(255, 255, 255, 0.8)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+              }}
+            >
+              Business
+            </span>
+          </div>
+          <div className={style.navbarItemdiv} onClick={() => router.push("/invest")}>
+            <span
+              className={style.navitem}
+              style={{
+                backgroundImage:
+                  pathname === "/invest"
+                    ? "linear-gradient(90deg, #F9D689 0%, #BE7A31 100%)"
+                    : "none",
+                color:
+                  pathname === "/invest" ? "transparent" : "rgba(255, 255, 255, 0.8)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+              }}
+            >
+              Invest
+            </span>
+          </div>
+          <DropdownMenu dropmenu={services} menuname="Services" />
+
+          <div
+            className={style.navbarItemdiv}
+            onClick={() => router.push("/infrastructure")}
+          >
+            <span
+              className={style.navitem}
+              style={{
+                backgroundImage:
+                  pathname === "/infrastructure"
+                    ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
+                    : "none",
+                color:
+                  pathname === "/infrastructure"
+                    ? "transparent"
+                    : "rgba(255, 255, 255, 0.8)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+              }}
+            >
+              Infrastructure
+            </span>
+          </div>
+          <DropdownMenu dropmenu={resource} menuname="Resources" />
           <div
             className={style.navbarItemdiv}
             onClick={() => router.push("/about")}
@@ -66,69 +121,6 @@ const Navbar2 = () => {
               About
             </span>
           </div>
-          <div
-            className={style.navbarItemdiv}
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <span
-              className={style.navitem}
-              style={{
-                color: "rgba(255, 255, 255, 0.8)",
-                backgroundColor: "transparent",
-              }}
-            >
-              Services
-            </span>
-            {isOpen && (
-              <div
-                className={`${style.navitemservice} ${
-                  isOpen ? style.open : ""
-                }`}
-              >
-                {services.map((item, index) => (
-                  <div key={index} className={style.servicesItem}>
-                    <span
-                      className={style.navitem}
-                      style={{
-                        color: "rgba(255, 255, 255, 0.8)",
-                        backgroundColor: "transparent",
-                        fontWeight: "bold",
-                      }}
-                    >
-                      {item.name}
-                    </span>
-                    <div className={style.servicesItemlist}>
-                      {item.dropdown.map((nav, i) => (
-                        <div
-                          key={i}
-                          onClick={() => handleItemClick(nav.link)}
-                          className={style.navbarItemdiv}
-                        >
-                          <span
-                            className={style.navitem}
-                            style={{
-                              backgroundImage:
-                                pathname === nav.link
-                                  ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
-                                  : "none",
-                              color:
-                                pathname === nav.link
-                                  ? "transparent"
-                                  : "rgba(255, 255, 255, 0.8)",
-                              WebkitBackgroundClip: "text",
-                              backgroundClip: "text",
-                            }}
-                          >
-                            {nav.name}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
         </div>
         <div onClick={() => router.push("/contactsection")}>
           <div
@@ -145,6 +137,99 @@ const Navbar2 = () => {
 };
 
 export default Navbar2;
+
+
+
+export const DropdownMenu = ({ dropmenu, menuname }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+  const handleItemClick = (link) => {
+    router.push(link);
+    setIsOpen(false);
+  };
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+  return (
+    <div
+      className={style.navbarItemdiv}
+      onClick={() => setIsOpen(!isOpen)}
+    >
+      <span
+        className={style.navitem}
+        style={{
+          color: "rgba(255, 255, 255, 0.8)",
+          backgroundColor: "transparent",
+        }}
+      >
+        {menuname}
+      </span>
+      {isOpen && (
+        <div
+          ref={dropdownRef}
+          className={`${style.navitemservice} ${isOpen ? style.open : ""
+            }`}
+        >
+          {dropmenu.map((item, index) => (
+            <div key={index} className={style.servicesItem} onClick={item.link ? () => handleItemClick(item.link) : undefined}>
+              <span
+                className={style.navitem}
+                style={{
+                  color: "rgba(255, 255, 255, 0.8)",
+                  backgroundColor: "transparent",
+                  fontWeight: "bold",
+                }}
+              >
+                {item.name}
+              </span>
+              {item.dropdown && (
+                <div className={style.servicesItemlist}>
+                  {item.dropdown && item.dropdown.map((nav, i) => (
+
+                    <div
+                      key={i}
+                      onClick={() => handleItemClick(nav.link)}
+                      className={style.navbarItemdiv}
+                    >
+                      <span
+                        className={style.navitem}
+                        style={{
+                          backgroundImage:
+                            pathname === nav.link
+                              ? "linear-gradient(90deg, #f9d689 0%, #be7a31 100%)"
+                              : "none",
+                          color:
+                            pathname === nav.link
+                              ? "transparent"
+                              : "rgba(255, 255, 255, 0.8)",
+                          WebkitBackgroundClip: "text",
+                          backgroundClip: "text",
+                        }}
+                      >
+                        {nav.name}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 {
   /* <div className={style.navbarItemdiv}>

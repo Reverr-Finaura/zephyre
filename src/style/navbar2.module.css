@@ -4,7 +4,7 @@
 }
 
 .Navbarcontainer {
-    padding: 25px 250px;
+    padding: 25px 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +13,7 @@
 .navbarItems {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .navbarItemdiv {
@@ -34,7 +34,8 @@
     z-index: 1000;
     padding: 10px;
     background-color: rgba(11, 11, 34, 0.5);
-    min-width: 210px;
+    min-width: 170px;
+    width: auto;
     min-height: 0;
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@
 
 .navitemservice.open {
     opacity: 1;
-    min-height: 100px;
+    min-height: auto;
     transition: all 0.5s ease-out;
 }
 
@@ -108,7 +109,34 @@
     }
 
     .navbarItems {
-        gap: 30px;
+        display: none;
+    }
+
+    .contactBtn {
+        display: none;
+    }
+
+    .navitemsmobileArea {
+        display: block;
+        z-index: 100;
+    }
+
+    .navitemsmobile {
+        z-index: 1000;
+        background-color: rgba(11, 11, 34, 1);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 5px;
+        padding: 15px;
+        right: 10px;
+        min-width: 120px;
+    }
+
+    .navitemservice {
+        right: 100px;
+        background-color: rgba(11, 11, 34, 1);
     }
 
 }

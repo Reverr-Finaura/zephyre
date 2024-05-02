@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.firstContainer {
+    padding: 50px 150px;
+}
+
+.firstContainer>h1 {
+    color: white;
+}
+
+.firstContainer>.option {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.option>.box>p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.secondContainer {
+    padding: 50px 150px;
+    background: rgba(11, 11, 34, 1);
+}
+
+.secondContainer>h1 {
+    color: white;
+}
+
+.secondContainer>.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.secondContainer>.list>.spanbox {
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: start;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.secondContainer>p {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: start;
+    padding: 0;
+    color: #FFFFFF99;
+}
+
+.articleInfoSection {
+    padding: 50px 150px;
+}
+
+.articleInfoSection>h5 {
+    background-image: linear-gradient(90deg, rgba(248, 212, 135, 0.8) -0.54%, rgba(153, 153, 153, 0.8) 99.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+}
+
+.articleInfoSection>.title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: white;
+}
+
+.articleInfoSection>.info {
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #FFFFFF99;
+}
+
+.articleInfoSection>.herobtn {
+    margin-top: 30px;
+}
+
+
+.articleInfoSection>.herobtn>.button {
+    width: 209px;
+    padding: 15px 55px 15px 55px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+
+}
+
+.firstbtn {
+    background: #6016FC;
+    border: none;
+}
+
+.linkName {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:890px) {
+    .firstContainer {
+        padding: 50px;
+    }
+
+    .secondContainer {
+        padding: 50px;
+    }
+
+    .articleInfoSection {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .firstContainer {
+        padding: 30px;
+    }
+
+    .firstContainer>.option {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .secondContainer {
+        padding: 30px;
+    }
+
+
+    .secondContainer>p {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+    }
+
+    .herobtn {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .articleInfoSection {
+        padding: 30px;
+    }
+
+    .articleInfoSection>.title {
+        font-size: 24px;
+    }
+
+    .articleInfoSection>.info {
+        font-size: 16px;
+        text-align: justify;
+    }
+}
