@@ -6,11 +6,11 @@ import Image from 'next/image';
 const Page = () => {
     return (
         <section> <div className={style.firstContainer}>
-            <h1>READY FOR THE FUTURE</h1>
-            <p>Invest in the business's core competencies.</p>
+            <h1>THE INFRASTRUCTURE</h1>
+            <p>TECHNOLOGY COMBINED WITH GLOBAL PRACTICES</p>
         </div>
             <div className={style.articleInfoSection}>
-                {/* <h5>A Utidivty tunnel</h5> */}
+                {/* <h5>A Utility tunnel</h5> */}
                 <p className={style.title}>COMMAND AND CONTROL CENTER FOR GIFT CITY</p>
                 <p className={style.info}>
                     Utilizing technological advancements to ensure living and working in the city in a safe and secure manner.
@@ -59,7 +59,7 @@ const Page = () => {
                 </div>
             </div>
             <div className={style.articleInfoSection}>
-                <h5>A Utidivty tunnel</h5>
+                <h5>A Utility tunnel</h5>
                 <p className={style.title}>UNIVERSITY TUNNEL FIRST IN THE NATION</p>
                 <p className={style.info}>
                     For safety purposes, the tunnel within GIFT City will have a total

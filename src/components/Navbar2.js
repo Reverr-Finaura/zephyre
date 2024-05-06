@@ -39,7 +39,7 @@ const Navbar2 = () => {
               Home
             </span>
           </div>
-          <DropdownMenu dropmenu={Giftcity} menuname="Gift city" />
+          <DropdownMenu dropmenu={Giftcity} menuname="GIFT city" />
           <div className={style.navbarItemdiv} onClick={() => router.push("/business")}>
             <span
               className={style.navitem}
@@ -74,7 +74,6 @@ const Navbar2 = () => {
               Invest
             </span>
           </div>
-          <DropdownMenu dropmenu={services} menuname="Services" />
 
           <div
             className={style.navbarItemdiv}
@@ -121,6 +120,7 @@ const Navbar2 = () => {
               About
             </span>
           </div>
+          <DropdownMenu dropmenu={services} menuname="Services" />
         </div>
         <div onClick={() => router.push("/contactsection")}>
           <div

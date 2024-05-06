@@ -20,12 +20,14 @@
     cursor: pointer;
     position: relative;
     text-decoration: none;
+    transition: all 0.5s ease-out;
 }
 
 .navitem {
     font-size: 14px;
     font-weight: 400;
     background-color: white;
+    transition: all 0.5s ease-out;
 }
 
 .navitemservice {
@@ -55,6 +57,7 @@
 .servicesItemlist {
     margin-left: 20px;
     display: none;
+    transition: all 0.5s ease-out;
     /* transition: all 0.5s ease-out; */
 }
 

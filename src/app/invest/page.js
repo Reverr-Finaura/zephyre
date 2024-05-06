@@ -29,7 +29,7 @@ const Page = () => {
 
 
             <div className={style.articleInfoSection}>
-                <h5>A Utidivty tunnel</h5>
+                <h5>A Utility tunnel</h5>
                 <p className={style.title}>UNIVERSITY TUNNEL FIRST IN THE NATION</p>
                 <p className={style.info}>
                     For safety purposes, the tunnel within GIFT City will have a total
