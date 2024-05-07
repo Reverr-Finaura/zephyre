@@ -72,19 +72,19 @@ export const planing1 = [
     image: "/images/icon1.png",
     title: "VC Opportunities (FO)",
     desc: "Explore tailored investment opportunities with Zephyer for family offices. Benefit from our startup expertise, exclusive access, and strategic exit planning for remarkable returns.",
-    linkname: "/services/vc-opportunities",
+    linkname: "/vc-opportunities",
   },
   {
     image: "/images/icon1.png",
     title: "Cross Border Setup (FO & Fund)",
     desc: "Discover global wealth management and personalized financial planning with Zephyer. Tailored solutions for single and multi-family offices seeking sophistication, excellence, and exclusive access to elite opportunities",
-    linkname: "/services/cross-border-fo-setup",
+    linkname: "/cross-border-fo-setup",
   },
   {
     image: "/images/icon1.png",
     title: "VC opportunities for LPs",
     desc: "Indulge in luxury with Zephyer's tailored investment opportunities for lending partners. Benefit from startup access, risk management, flexible structures, and strategic networking for substantial returns",
-    linkname: "/services/lp-vc-opportunities",
+    linkname: "/lp-vc-opportunities",
   },
 ];
 export const planing2 = [
@@ -92,19 +92,19 @@ export const planing2 = [
     image: "/images/icon1.png",
     title: "Cross Border Setup (FO & Fund) for LPs",
     desc: "Experience sophistication with Zephyer's cross-border family office setup. Tailored solutions elevate your global strategy, including structuring, investment advisory, wealth preservation, and lifestyle management.",
-    linkname: "/services/lp-cross-border-setup",
+    linkname: "/lp-cross-border-setup",
   },
   {
     image: "/images/icon1.png",
     title: "Investment Banking for Startups    ",
     desc: " Elevate your startup journey with Zephyer's exclusive investment banking services. Tailored solutions in capital raising, M&A advisory, partnerships, restructuring, and IPOs. Unlock your full potential with us.",
-    linkname: "/services/investment-banking",
+    linkname: "/investment-banking",
   },
   {
     image: "/images/icon1.png",
     title: "IPO Service for startups",
     desc: "Embark on a transformative IPO journey with Zephyer's tailored services for startups. From pre-IPO preparation to post-IPO support, we ensure seamless market entry and ongoing success.",
-    linkname: "/services/ipo-services",
+    linkname: "/ipo-services",
   },
 ];
 
