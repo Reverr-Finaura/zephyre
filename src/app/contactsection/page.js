@@ -17,9 +17,9 @@ const page = () => {
         <div className={styles.blurspot3}></div>
         <div className={style.contactWrapper}>
           <div className={style.contactWrapperleft}>
-            <h5>HOW WE WORK?</h5>
+            {/* <h5>HOW WE WORK?</h5> */}
             <p className={style.title}>
-              We love receiving messages from you, we are waiting for it.
+            Looking forward to hearing from you.
             </p>
             <div className={style.contactTypeItems}>
               <div className={style.contactTypeItem}>

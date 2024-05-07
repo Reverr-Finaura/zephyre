@@ -60,7 +60,7 @@ export default Page
 
 const testimonial = [
     {
-        content: "We deeply appreciate the unwavering support and collaboration extended by the Indian government, market authorities, and partners in our collective endeavor to foster openness in capital markets across Asia and India. It's with great pleasure that we embrace membership in the vibrant GIFT City community through our subsidiary, SGX India Connect IFSC Pte Ltd. We eagerly anticipate the opportunity to serve international market participants and enhance value for our esteemed clients."
+        content: "We deeply appreciate the unwavering support and collaboration extended by the Indian government, market authorities, and partners in our collective endeavor to foster openness in capital markets across Asia and India. It's with great pleasure that we embrace membership in the vibrant GIFT City community through our subsidiary, SGX India Connect IFSC Pvt. Ltd. We eagerly anticipate the opportunity to serve international market participants and enhance value for our esteemed clients."
     },
     {
         content: "The World Gold Council's Chief Executive Officer, Mr. David Tait, emphasizes the unparalleled blend of state-of-the-art infrastructure and a unified regulatory framework anchored in GIFT City. This framework establishes clear standards and transparent procedures governing the vaulting, trading, and delivery practices within the gold industry. Such advancements position India to emerge as a pivotal hub for equitable, streamlined, and transparent bullion trading. This transformative shift promises to enhance openness and foster greater confidence across the global gold market."

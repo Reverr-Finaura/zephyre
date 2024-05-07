@@ -72,7 +72,7 @@ const Page = () => {
                 <h1>The characteristics of ECONOMY</h1>
                 <div className={style.list}>
                     <div className={style.spanbox}>Research and development</div>
-                    <div className={style.spanbox}> Global dedivvery center</div>
+                    <div className={style.spanbox}> Global delivery center</div>
                     <div className={style.spanbox}>Innovation center</div>
                     <div className={style.spanbox}>Back office</div>
                     <div className={style.spanbox}> E-commerce</div>

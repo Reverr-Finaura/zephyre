@@ -16,7 +16,7 @@ const Page = () => {
                     Utilizing technological advancements to ensure living and working in the city in a safe and secure manner.
                     <br />
                     <br />
-                    PROACTIVE UTILITY INFRASTRICTURE MONITORING AND MANAGEMENT.
+                    PROACTIVE UTILITY INFRASTRUCTURE MONITORING AND MANAGEMENT.
 
                     <br />
                     Tracking incidents in real time to respond quickly.

@@ -11,10 +11,10 @@ const Page = () => {
                     THE GIFT VISION
                 </p>
                 <p className={style.info}>
-                    With the goal of emerging as a preeminent worldwide center for technology and finance, GIFT City's development offers a chance to push policy changes that will create a robust financial ecosystem that is essential for sustaining and growing enterprises. GIFT City is expected to offer a business environment that is as favorable as or better than that of the top international financial centers.
+                    With the goal of emerging as a pre-eminent worldwide center for technology and finance, GIFT City's development offers a chance to push policy changes that will create a robust financial ecosystem that is essential for sustaining and growing enterprises. GIFT City is expected to offer a business environment that is as favorable as or better than that of the top international financial centers.
                     <br />
                     <br />
-                    A national project of great significance, GIFT City has grown to play a crucial role in India's development as the nation works to fulfill its aspiration of becoming a developed on
+                    A national project of great significance, GIFT City has grown to play a crucial role in India's development as the nation works to fulfill its aspiration of becoming a developed one
                 </p>
                 <div className={style.herobtn}>
                     <div className={`${style.firstbtn} ${style.button}`}>
